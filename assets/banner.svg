@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+<title id="title">Abdulrahman M. Yaqyn — Backend systems, AI applications, Linux</title>
+<desc id="desc">A charcoal and red banner with connected nodes representing connected software workflows.</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#303036"/></pattern>
+  <linearGradient id="fade"><stop stop-color="#ed424a"/><stop offset="1" stop-color="#77262c"/></linearGradient>
+</defs>
+<rect width="1280" height="340" rx="18" fill="#161619"/>
+<rect x="780" width="500" height="340" rx="18" fill="url(#grid)"/>
+<rect x="56" y="55" width="36" height="4" rx="2" fill="#ed424a"/>
+<text x="56" y="96" fill="#b6b6be" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">DEVELOPER · BUILDER · PROBLEM SOLVER</text>
+<text x="52" y="174" fill="#fafafa" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.8">Abdulrahman M. Yaqyn</text>
+<text x="56" y="222" fill="#cacad0" font-family="Arial, sans-serif" font-size="21">Backend systems. AI applications. Linux.</text>
+<text x="56" y="283" fill="#9898a2" font-family="Arial, sans-serif" font-size="16">From business workflows to the tools behind them.</text>
+<g fill="none" stroke="#494950" stroke-width="2">
+ <path d="M935 80H1060V170H1174"/><path d="M850 250H1005V170H1060"/><path d="M1060 170V275H1174"/>
+</g>
+<g fill="#222227" stroke="#686870" stroke-width="2">
+ <rect x="909" y="54" width="52" height="52" rx="14"/><rect x="824" y="224" width="52" height="52" rx="14"/>
+ <rect x="1148" y="144" width="52" height="52" rx="14"/><rect x="1148" y="249" width="52" height="52" rx="14"/>
+</g>
+<rect x="1026" y="136" width="68" height="68" rx="18" fill="#2b1b20" stroke="url(#fade)" stroke-width="2"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4">
+ <path d="m1050 158-12 12 12 12m20-24 12 12-12 12" stroke="#ed424a"/>
+ <path d="M925 73h20m-20 7h14m-14 7h20" stroke="#bebec6"/>
+ <path d="m840 250 7 7 13-15" stroke="#bebec6"/>
+ <path d="M1166 162h16v16h-16z" stroke="#bebec6"/>
+ <path d="M1164 276h20m-20-7h20m-20 14h12" stroke="#bebec6"/>
+</g>
+<circle cx="1005" cy="170" r="4" fill="#ed424a"/><circle cx="1060" cy="80" r="4" fill="#ed424a"/>
+</svg>
