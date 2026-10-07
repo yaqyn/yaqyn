@@ -45,9 +45,9 @@ My accounting background shapes how I approach development: understand the opera
   <img src="assets/qvos.gif" alt="qvOS System — animated red and grayscale artwork" width="100%">
 </a>
 
-**One year of ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
+**Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
 
-I build and adapt it around my own development, productivity, automation, and AI agent workflows. It's where my interest in Linux, interface design, and practical tooling comes together.
+starting as a fork of dhh's Omacom, I build and adapt it around my own development, productivity, automation, and AI agent workflows. It's where my interest in Linux, interface design, and practical tooling comes together.
 
 **Focus:** Arch Linux · Hyprland · Command-line tools · Desktop integration · Automation
 
