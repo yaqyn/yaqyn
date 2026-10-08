@@ -19,7 +19,7 @@ My accounting background shapes how I approach development: understand the opera
 ### HyperQuote — Connected Business Operations
 
 <p align="center">
-  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="560" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
+  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="100%" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
 </p>
 
 **Six months of continuous AI-assisted full-stack development.** A digital ecosystem connecting customers, sales, internal operations, management, dispatch, and drivers, from a material request to its delivery.
@@ -38,7 +38,7 @@ My accounting background shapes how I approach development: understand the opera
 ### qvOS — Personal Linux Distribution
 
 <p align="center">
-  <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="560" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
+  <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="100%" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
 </p>
 
 **Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
