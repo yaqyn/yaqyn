@@ -17,10 +17,6 @@ My accounting background shapes how I approach development: understand the opera
 
 ### HyperQuote · Connected business operations
 
-<a href="https://github.com/yaqyn/HyperQuote">
-  <img src="assets/hyperquote.gif" alt="HyperQuote — Build the Future, Faster" width="100%">
-</a>
-
 **Six months of continuous AI-assisted full-stack development.** A digital ecosystem connecting customers, sales, internal operations, management, dispatch, and drivers, from a material request to its delivery.
 
 - Connected orders, inventory, suppliers, warehousing, fleet, finance, and customer service workflows.
@@ -31,19 +27,8 @@ My accounting background shapes how I approach development: understand the opera
 
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
-<details>
-<summary><strong>See the customer experience</strong></summary>
-<br>
-
-![HyperQuote customer portal — AI-assisted material planning and an editable order draft](assets/hyperquote-portal.png)
-
-</details>
 
 ### qvOS · A personal Linux distribution
-
-<a href="https://github.com/yaqyn/qvOS">
-  <img src="assets/qvos.gif" alt="qvOS System — animated red and grayscale artwork" width="100%">
-</a>
 
 **Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
 
@@ -108,3 +93,25 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 ---
 
 **Have a role or project in mind?** I'm interested in backend development, AI applications, and business workflow automation. Reach me at **[contact@yaqyn.dev](mailto:contact@yaqyn.dev)**.
+
+## Project gallery
+
+<p align="center">
+  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/projects/hyperquote.svg" width="360" alt="HyperQuote — Connected business operations"></a>
+  <a href="https://github.com/yaqyn/qvOS"><img src="assets/projects/qvos.svg" width="360" alt="qvOS — Personal Linux distribution"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="360" alt="Workbench — AI coding agent"></a>
+  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="360" alt="CineSearch — Movie RAG engine"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="360" alt="SiteLens — Web crawler"></a>
+  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg" width="360" alt="Orbit — Asteroids arcade game"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="360" alt="TextScope — Text analyzer"></a>
+  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="360" alt="Folio — Personal site and generator"></a>
+</p>
