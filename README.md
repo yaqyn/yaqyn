@@ -59,10 +59,11 @@ Alongside larger projects, I practice software fundamentals through smaller, foc
 
 | Project | What it explores |
 | --- | --- |
-| [Web crawler](https://github.com/yaqyn/web_crawler) | Web scraping, HTTP, and automation |
-| [Static site generator](https://github.com/yaqyn/my-site) | Turning Markdown into a website |
-| [Asteroids](https://github.com/yaqyn/Asteroids) | Game logic and object-oriented programming |
-| [BookBot](https://github.com/yaqyn/BookBot) | Python text processing |
+| [Workbench](https://github.com/yaqyn/workbench) | Workspace-scoped coding agents |
+| [SiteLens](https://github.com/yaqyn/sitelens) | Web scraping, HTTP, and automation |
+| [Folio](https://github.com/yaqyn/folio) | Turning Markdown into a website |
+| [Orbit](https://github.com/yaqyn/orbit) | Game logic and object-oriented programming |
+| [TextScope](https://github.com/yaqyn/textscope) | Python text processing |
 
 ## Skills & tools
 
