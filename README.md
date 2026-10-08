@@ -39,12 +39,14 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
-### Python projects · Building the fundamentals
+### Project directory
 
-Alongside larger projects, I practice software fundamentals through smaller, focused builds.
+Larger systems and smaller, focused builds, with the source for each project linked below.
 
 | Project | What it explores |
 | --- | --- |
+| [HyperQuote — Connected Business Operations](https://github.com/yaqyn/HyperQuote) | Connected customer, operations, and delivery workflows |
+| [qvOS — Personal Linux Distribution](https://github.com/yaqyn/qvOS) | Arch Linux, Hyprland, and native system tools |
 | [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | BM25, semantic retrieval, hybrid ranking, and grounded generation |
 | [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agents |
 | [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | Web scraping, HTTP, and automation |
