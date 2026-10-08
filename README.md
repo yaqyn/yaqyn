@@ -10,11 +10,11 @@
 
 ## Building useful software, from the workflow to the system
 
-I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**. I work on backend systems, practical AI applications, and automation, with hands-on experience building connected business software and my own Arch Linux distribution.
+I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**. My career work centers on HyperQuote’s connected business software. I develop qvOS as a personal Linux project and document my backend and Python learning through Boot.dev student projects.
 
 My accounting background shapes how I approach development: understand the operation, follow the data, and build tools that make the work easier. I enjoy turning complex processes into clear interfaces and connected systems.
 
-## Selected work
+## Career Projects
 
 ### HyperQuote — Connected Business Operations
 
@@ -29,6 +29,8 @@ My accounting background shapes how I approach development: understand the opera
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
 
+## Personal Projects
+
 ### qvOS — Personal Linux Distribution
 
 **Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
@@ -39,20 +41,18 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
-### Project directory
+## Learning Journey Projects
 
-Larger systems and smaller, focused builds, with the source for each project linked below.
+**Student projects built through the [Boot.dev](https://www.boot.dev) curriculum.** I use these projects to practice Python, backend fundamentals, retrieval, and software design, then extend them through hands-on experimentation.
 
-| Project | What it explores |
+| Project | Learning focus |
 | --- | --- |
-| [HyperQuote — Connected Business Operations](https://github.com/yaqyn/HyperQuote) | Connected customer, operations, and delivery workflows |
-| [qvOS — Personal Linux Distribution](https://github.com/yaqyn/qvOS) | Arch Linux, Hyprland, and native system tools |
+| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agents and tool boundaries |
 | [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | BM25, semantic retrieval, hybrid ranking, and grounded generation |
-| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agents |
-| [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | Web scraping, HTTP, and automation |
-| [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Turning Markdown into a website |
+| [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | HTTP, asynchronous crawling, and structured reports |
 | [Orbit — Asteroids Game](https://github.com/yaqyn/orbit-asteroids-game) | Game logic and object-oriented programming |
-| [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Python text processing |
+| [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Text processing, vocabulary analysis, and exports |
+| [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Markdown parsing, HTML generation, and static-site publishing |
 
 ## Skills & tools
 
@@ -101,26 +101,30 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 ## Project gallery
 
 <details>
-<summary><strong>View all 8 projects</strong></summary>
+<summary><strong>View all 8 projects by category</strong></summary>
+
+### Career Projects
 
 <p align="center">
-  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/projects/hyperquote.svg" width="360" alt="HyperQuote — Connected business operations"></a>
-  <a href="https://github.com/yaqyn/qvOS"><img src="assets/projects/qvos.svg" width="360" alt="qvOS — Personal Linux distribution"></a>
+  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="560" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="360" alt="Workbench — AI coding agent"></a>
-  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="360" alt="CineSearch — Movie RAG engine"></a>
-</p>
+### Personal Projects
 
 <p align="center">
-  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="360" alt="SiteLens — Web crawler"></a>
-  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg" width="360" alt="Orbit — Asteroids arcade game"></a>
+  <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="560" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
 </p>
 
+### Learning Journey Projects
+
 <p align="center">
-  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="360" alt="TextScope — Text analyzer"></a>
-  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="360" alt="Folio — Personal site and generator"></a>
+  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
+  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
+  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
+  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
+  <br>
+  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
+  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
 </p>
 
 </details>
