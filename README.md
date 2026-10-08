@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="mailto:contact@yaqyn.dev">Contact</a> &nbsp;·&nbsp;
+  <a href="https://yaqyn.github.io/folio-static-site/">Portfolio</a> &nbsp;·&nbsp;
   <a href="https://github.com/yaqyn/HyperQuote">HyperQuote</a> &nbsp;·&nbsp;
   <a href="https://github.com/yaqyn/qvOS">qvOS</a> &nbsp;·&nbsp;
   <a href="https://www.boot.dev/u/yaqyn">Boot.dev</a>
@@ -15,7 +16,7 @@ My accounting background shapes how I approach development: understand the opera
 
 ## Selected work
 
-### HyperQuote · Connected business operations
+### HyperQuote — Connected Business Operations
 
 **Six months of continuous AI-assisted full-stack development.** A digital ecosystem connecting customers, sales, internal operations, management, dispatch, and drivers, from a material request to its delivery.
 
@@ -28,7 +29,7 @@ My accounting background shapes how I approach development: understand the opera
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
 
-### qvOS · A personal Linux distribution
+### qvOS — Personal Linux Distribution
 
 **Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
 
@@ -44,6 +45,7 @@ Alongside larger projects, I practice software fundamentals through smaller, foc
 
 | Project | What it explores |
 | --- | --- |
+| [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | BM25, semantic retrieval, hybrid ranking, and grounded generation |
 | [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agents |
 | [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | Web scraping, HTTP, and automation |
 | [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Turning Markdown into a website |
@@ -96,6 +98,9 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 ## Project gallery
 
+<details>
+<summary><strong>View all 8 projects</strong></summary>
+
 <p align="center">
   <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/projects/hyperquote.svg" width="360" alt="HyperQuote — Connected business operations"></a>
   <a href="https://github.com/yaqyn/qvOS"><img src="assets/projects/qvos.svg" width="360" alt="qvOS — Personal Linux distribution"></a>
@@ -115,3 +120,5 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
   <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="360" alt="TextScope — Text analyzer"></a>
   <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="360" alt="Folio — Personal site and generator"></a>
 </p>
+
+</details>
