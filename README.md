@@ -18,6 +18,10 @@ My accounting background shapes how I approach development: understand the opera
 
 ### HyperQuote — Connected Business Operations
 
+<p align="center">
+  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="560" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
+</p>
+
 **Six months of continuous AI-assisted full-stack development.** A digital ecosystem connecting customers, sales, internal operations, management, dispatch, and drivers, from a material request to its delivery.
 
 - Connected orders, inventory, suppliers, warehousing, fleet, finance, and customer service workflows.
@@ -33,6 +37,10 @@ My accounting background shapes how I approach development: understand the opera
 
 ### qvOS — Personal Linux Distribution
 
+<p align="center">
+  <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="560" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
+</p>
+
 **Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
 
 starting as a fork of dhh's Omacom, I build and adapt it around my own development, productivity, automation, and AI agent workflows. It's where my interest in Linux, interface design, and practical tooling comes together.
@@ -41,7 +49,7 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
-## Learning Journey Projects
+## Learning Journey
 
 **Student projects built through the [Boot.dev](https://www.boot.dev) curriculum.** I use these projects to practice Python, backend fundamentals, retrieval, and software design, then extend them through hands-on experimentation.
 
@@ -98,24 +106,10 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 **Have a role or project in mind?** I'm interested in backend development, AI applications, and business workflow automation. Reach me at **[contact@yaqyn.dev](mailto:contact@yaqyn.dev)**.
 
-## Project gallery
+## Learning Journey Projects
 
 <details>
-<summary><strong>View all 8 projects by category</strong></summary>
-
-### Career Projects
-
-<p align="center">
-  <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="560" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
-</p>
-
-### Personal Projects
-
-<p align="center">
-  <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="560" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
-</p>
-
-### Learning Journey Projects
+<summary><strong>Explore the 6 Boot.dev student projects</strong></summary>
 
 <p align="center">
   <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
