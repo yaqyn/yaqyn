@@ -51,10 +51,12 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 
 ## Learning Journey
 
-**Student projects built through the [Boot.dev](https://www.boot.dev) curriculum.** I use these projects to practice Python, backend fundamentals, retrieval, and software design, then extend them through hands-on experimentation.
+**Student projects built through the [Boot.dev](https://www.boot.dev) curriculum.** I use these projects to practice Go, Python, backend fundamentals, containerization, retrieval, and software design, then extend them through hands-on experimentation.
 
 | Project | Learning focus |
 | --- | --- |
+| [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | Go and PostgreSQL APIs, authentication, renewable sessions, and membership webhooks |
+| [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | Docker builds, health probes, structured logs, and graceful shutdown in Go |
 | [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agents and tool boundaries |
 | [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | BM25, semantic retrieval, hybrid ranking, and grounded generation |
 | [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | HTTP, asynchronous crawling, and structured reports |
@@ -66,10 +68,10 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 
 | Area | Skills |
 | --- | --- |
-| **Programming** | Python, SQL, object-oriented and functional programming, data structures and algorithms |
+| **Programming** | Go, Python, SQL, object-oriented and functional programming, data structures and algorithms |
 | **Backend & data** | APIs and HTTP, database development, PostgreSQL, Supabase, Pandas, Polars, data analysis and visualization |
 | **AI & automation** | LLM applications, RAG, AI agents, agentic workflows, prompt engineering, web scraping, workflow automation |
-| **Development** | Git, Linux, command-line tools, debugging, AI-assisted software development |
+| **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
 ### How I work with AI
@@ -109,7 +111,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 ## Learning Journey Projects
 
 <details>
-<summary><strong>Explore the 6 Boot.dev student projects</strong></summary>
+<summary><strong>Explore the 8 Boot.dev student projects</strong></summary>
 
 <p align="center">
   <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
@@ -119,6 +121,8 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
   <br>
   <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
   <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
+  <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
+  <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
 </p>
 
 </details>
