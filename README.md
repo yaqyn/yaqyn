@@ -113,7 +113,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 <details>
 <summary><strong>Explore the 8 Boot.dev student projects</strong></summary>
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
   <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
   <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
