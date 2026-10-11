@@ -30,6 +30,8 @@
 
 **Stack:** TypeScript · React · TanStack Start · Supabase · PostgreSQL · Cloudflare Workers · Infisical
 
+The public showcase uses fictional data and shared demonstration accounts.
+
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Personal projects
@@ -46,6 +48,8 @@ qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to 
 
 **Focus:** Arch Linux · Hyprland · Command-line tools · Desktop integration · Automation
 
+Public ISO downloads are not available yet; the repository documents source builds and release checks.
+
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
@@ -56,7 +60,7 @@ qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to 
 | --- | --- |
 | [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | Go and PostgreSQL APIs, authentication, renewable sessions, and membership webhooks |
 | [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | Docker builds, health probes, structured logs, and graceful shutdown in Go |
-| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agents and tool boundaries |
+| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agent and tool boundaries |
 | [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | BM25, semantic retrieval, hybrid ranking, and grounded generation |
 | [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | HTTP, asynchronous crawling, and structured reports |
 | [Orbit — Asteroids Game](https://github.com/yaqyn/orbit-asteroids-game) | Game logic and object-oriented programming |
