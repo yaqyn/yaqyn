@@ -1,5 +1,7 @@
 ![Abdulrahman M. Yaqyn — Backend systems, AI applications, and Linux](assets/banner.svg)
 
+# Abdulrahman M. Yaqyn — Software and systems
+
 <p align="left">
   <a href="mailto:contact@yaqyn.dev">Contact</a> &nbsp;·&nbsp;
   <a href="https://yaqyn.github.io/folio-static-site/">Portfolio</a> &nbsp;·&nbsp;
@@ -8,16 +10,15 @@
   <a href="https://www.boot.dev/u/yaqyn">Boot.dev</a>
 </p>
 
-## <img src="assets/icons/person.svg" width="24" height="24" alt=""> Backend systems, AI applications, and Linux
+## <img src="assets/icons/overview.svg" width="24" height="24" alt=""> Backend systems, AI applications, and Linux
 
-**An accounting background shapes how I build software: follow the records, understand the handoffs, and make the behavior clear.** The projects here span business operations, AI applications, and Linux tools. Based in **6th of October City, Egypt**.
+**An accounting background shapes how I build software: follow the records, understand the handoffs, and make the behavior clear.** The projects here span business operations, AI applications, and Linux tools. The work is based in **6th of October City, Egypt**.
 
-> Understand the work. Follow the data. Make the behavior clear.
+> Trace the whole workflow, from the first record to the final handoff.
 
+## <img src="assets/icons/career.svg" width="24" height="24" alt=""> Career projects
 
-## <img src="assets/icons/career-project.svg" width="24" height="24" alt=""> Career Projects
-
-### <img src="assets/icons/career-project.svg" width="20" height="20" alt=""> HyperQuote — Connected Business Operations
+### <img src="assets/icons/career.svg" width="20" height="20" alt=""> HyperQuote — Connected business operations
 
 <p align="left">
   <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="100%" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
@@ -33,10 +34,9 @@
 
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
+## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Personal projects
 
-## <img src="assets/icons/project.svg" width="24" height="24" alt=""> Personal Projects
-
-### <img src="assets/icons/project.svg" width="20" height="20" alt=""> qvOS — Personal Linux Distribution
+### <img src="assets/icons/projects.svg" width="20" height="20" alt=""> qvOS — Personal Linux distribution
 
 <p align="left">
   <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="100%" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
@@ -50,7 +50,7 @@ qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to 
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
-## <img src="assets/icons/learn.svg" width="24" height="24" alt=""> Learning Journey
+## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
 **Projects developed through the [Boot.dev](https://www.boot.dev) curriculum and extended through independent work.** They cover Go and Python APIs, containerized services, retrieval systems, and developer tools. Each repository documents what it does and how to run it.
 
@@ -65,7 +65,7 @@ qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to 
 | [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Text processing, vocabulary analysis, and exports |
 | [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Markdown parsing, HTML generation, and static-site publishing |
 
-## <img src="assets/icons/code.svg" width="24" height="24" alt=""> Skills & tools
+## <img src="assets/icons/skills.svg" width="24" height="24" alt=""> Skills and tools
 
 | Area | Skills |
 | --- | --- |
@@ -75,11 +75,11 @@ qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to 
 | **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
-### <img src="assets/icons/learn.svg" width="20" height="20" alt=""> AI in the development process
+### <img src="assets/icons/ai.svg" width="20" height="20" alt=""> AI in the development process
 
 **Claude Code and Codex** support implementation, debugging, and code review. The process starts with clear requirements and continues through review, tests, and direct use. I remain responsible for the decisions and the resulting work.
 
-## <img src="assets/icons/learn.svg" width="24" height="24" alt=""> Learning & credentials
+## <img src="assets/icons/credentials.svg" width="24" height="24" alt=""> Learning and credentials
 
 Current study covers backend development through **Boot.dev and IBM**, **Go, JavaScript, and TypeScript**, and **AWS and cloud engineering**. Further coursework includes frontend development with **Scrimba**, full-stack development with **Meta and Scrimba**, and AI engineering with **IBM and Scrimba**.
 
@@ -109,7 +109,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 **Let’s talk about the work.** For roles or projects involving backend development, AI applications, or business workflow automation, reach me at **[contact@yaqyn.dev](mailto:contact@yaqyn.dev)**.
 
-## <img src="assets/icons/project.svg" width="24" height="24" alt=""> Project gallery
+## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
 
 <details>
 <summary><strong>Explore the eight Boot.dev projects</strong></summary>
