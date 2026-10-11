@@ -10,11 +10,11 @@
 
 ## <img src="assets/icons/person.svg" width="24" height="24" alt=""> Backend systems, AI applications, and Linux
 
-I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**. I build backend systems, AI applications, and Linux tools. My work includes HyperQuote’s business software, my personal Linux distribution qvOS, and Go and Python projects developed through Boot.dev.
+I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**, focused on backend systems, AI applications, and Linux tools. The work here spans HyperQuote’s business software, qvOS, and Go and Python projects developed through Boot.dev.
 
 > Understand the work. Follow the data. Make the behavior clear.
 
-My accounting background makes me attentive to how records, responsibilities, and handoffs fit together. I approach software by understanding the work first, then shaping the data and interfaces around it.
+An accounting background shapes my attention to records, responsibilities, and handoffs. The starting point is understanding the work, then shaping the data and interfaces around it.
 
 ## <img src="assets/icons/career-project.svg" width="24" height="24" alt=""> Career Projects
 
@@ -24,7 +24,7 @@ My accounting background makes me attentive to how records, responsibilities, an
   <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="100%" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
 </p>
 
-**Business software for building-materials procurement.** I develop HyperQuote to connect customers, sales, operations, dispatch, and drivers across the path from a material request to delivery.
+**Business software for building-materials procurement.** HyperQuote connects customers, sales, operations, dispatch, and drivers across the path from a material request to delivery.
 
 - Connected orders, inventory, suppliers, warehousing, fleet, finance, and customer service workflows.
 - Built natural-language ordering and a RAG-based assistant for accessing company information.
@@ -43,9 +43,9 @@ My accounting background makes me attentive to how records, responsibilities, an
   <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="100%" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
 </p>
 
-**An ongoing Arch Linux distribution project.** I develop qvOS around a keyboard-first Hyprland desktop, native system tools, and the practical work of installation, updates, and recovery.
+**An ongoing Arch Linux distribution project.** qvOS brings together a keyboard-first Hyprland desktop, native system tools, and the practical work of installation, updates, and recovery.
 
-qvOS began with [Omarchy](https://github.com/basecamp/omarchy). I adapt and extend it for my own development, productivity, automation, and AI agent workflows. Working on the system I use every day gives those decisions a direct test.
+qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to evolve around my development, productivity, automation, and AI agent workflows. Daily use gives those decisions a direct test.
 
 **Focus:** Arch Linux · Hyprland · Command-line tools · Desktop integration · Automation
 
@@ -76,13 +76,13 @@ qvOS began with [Omarchy](https://github.com/basecamp/omarchy). I adapt and exte
 | **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
-### <img src="assets/icons/learn.svg" width="20" height="20" alt=""> How I work with AI
+### <img src="assets/icons/learn.svg" width="20" height="20" alt=""> AI in the development process
 
-I use **Claude Code and Codex** for implementation, debugging, and code review. I define the requirements, review changes, and check behavior through tests and direct use. The tools help me explore and build; the decisions and responsibility for the work remain mine.
+**Claude Code and Codex** support implementation, debugging, and code review. The process starts with clear requirements and continues through review, tests, and direct use. I remain responsible for the decisions and the resulting work.
 
 ## <img src="assets/icons/learn.svg" width="24" height="24" alt=""> Learning & credentials
 
-My current study covers backend development through **Boot.dev and IBM**, **Go, JavaScript, and TypeScript**, and **AWS and cloud engineering**. I also study frontend development with **Scrimba**, full-stack development with **Meta and Scrimba**, and AI engineering with **IBM and Scrimba**.
+Current study covers backend development through **Boot.dev and IBM**, **Go, JavaScript, and TypeScript**, and **AWS and cloud engineering**. Further coursework includes frontend development with **Scrimba**, full-stack development with **Meta and Scrimba**, and AI engineering with **IBM and Scrimba**.
 
 <a href="https://www.boot.dev/u/yaqyn">
   <img src="https://api.boot.dev/v1/users/public/98c3900b-cd60-4a32-b587-90ae00db0262/thumbnail" alt="Abdulrahman's Boot.dev learning progress">
