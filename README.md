@@ -14,8 +14,6 @@
 
 **An accounting background shapes how I build software: follow the records, understand the handoffs, and make the behavior clear.** The projects here span business operations, AI applications, and Linux tools. The work is based in **6th of October City, Egypt**.
 
-> Trace the whole workflow, from the first record to the final handoff.
-
 ## <img src="assets/icons/career.svg" width="24" height="24" alt=""> Career projects
 
 ### <img src="assets/icons/career.svg" width="20" height="20" alt=""> HyperQuote — Connected business operations
@@ -126,3 +124,5 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 </p>
 
 </details>
+
+> Trace the whole workflow, from the first record to the final handoff.
