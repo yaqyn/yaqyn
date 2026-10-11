@@ -10,11 +10,10 @@
 
 ## <img src="assets/icons/person.svg" width="24" height="24" alt=""> Backend systems, AI applications, and Linux
 
-I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**, focused on backend systems, AI applications, and Linux tools. The work here spans HyperQuote’s business software, qvOS, and Go and Python projects developed through Boot.dev.
+**An accounting background shapes how I build software: follow the records, understand the handoffs, and make the behavior clear.** The projects here span business operations, AI applications, and Linux tools. Based in **6th of October City, Egypt**.
 
 > Understand the work. Follow the data. Make the behavior clear.
 
-An accounting background shapes my attention to records, responsibilities, and handoffs. The starting point is understanding the work, then shaping the data and interfaces around it.
 
 ## <img src="assets/icons/career-project.svg" width="24" height="24" alt=""> Career Projects
 
