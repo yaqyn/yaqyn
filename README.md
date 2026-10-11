@@ -116,15 +116,15 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 <summary><strong>Explore the 8 Boot.dev student projects</strong></summary>
 
 <p align="left">
-  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
-  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
-  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
-  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
-  <br>
-  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
-  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
   <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
   <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
+  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
+  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
+  <br>
+  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
+  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
+  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
+  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
 </p>
 
 </details>
