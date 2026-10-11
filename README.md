@@ -1,6 +1,6 @@
 ![Abdulrahman M. Yaqyn — Backend systems, AI applications, and Linux](assets/banner.svg)
 
-<p align="center">
+<p align="left">
   <a href="mailto:contact@yaqyn.dev">Contact</a> &nbsp;·&nbsp;
   <a href="https://yaqyn.github.io/folio-static-site/">Portfolio</a> &nbsp;·&nbsp;
   <a href="https://github.com/yaqyn/HyperQuote">HyperQuote</a> &nbsp;·&nbsp;
@@ -8,48 +8,50 @@
   <a href="https://www.boot.dev/u/yaqyn">Boot.dev</a>
 </p>
 
-## Building useful software, from the workflow to the system
+## <img src="assets/icons/person.svg" width="24" height="24" alt=""> Building useful software, from the workflow to the system
 
-I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**. My career work centers on HyperQuote’s connected business software. I develop qvOS as a personal Linux project and document my backend and Python learning through Boot.dev student projects.
+I'm **Abdulrahman M. Yaqyn**, a developer based in **6th of October City, Egypt**. My career work centers on HyperQuote’s connected business software. I develop qvOS as a personal Linux project and document my Go, Python, and backend learning through Boot.dev student projects.
 
-My accounting background shapes how I approach development: understand the operation, follow the data, and build tools that make the work easier. I enjoy turning complex processes into clear interfaces and connected systems.
+> Understand the operation, follow the data, and build tools that make the work easier.
 
-## Career Projects
+My accounting background shapes how I approach development. I enjoy turning complex processes into clear interfaces and connected systems.
 
-### HyperQuote — Connected Business Operations
+## <img src="assets/icons/career-project.svg" width="24" height="24" alt=""> Career Projects
 
-<p align="center">
+### <img src="assets/icons/career-project.svg" width="20" height="20" alt=""> HyperQuote — Connected Business Operations
+
+<p align="left">
   <a href="https://github.com/yaqyn/HyperQuote"><img src="assets/hyperquote.gif" width="100%" alt="Career Projects: HyperQuote — Connected Business Operations"></a>
 </p>
 
-**Six months of continuous AI-assisted full-stack development.** A digital ecosystem connecting customers, sales, internal operations, management, dispatch, and drivers, from a material request to its delivery.
+**Connected business software for building-materials procurement.** A digital ecosystem connecting customers, sales, internal operations, management, dispatch, and drivers, from a material request to its delivery.
 
 - Connected orders, inventory, suppliers, warehousing, fleet, finance, and customer service workflows.
 - Built natural-language ordering and a RAG-based assistant for accessing company information.
 - Developed customer, operations, and driver experiences around shared data and coordinated handoffs.
 
-**Stack:** Supabase · PostgreSQL · Cloudflare Workers · TypeScript (AI-assisted) · Motion · Adobe Aria · Infisical
+**Stack:** TypeScript · React · TanStack Start · Supabase · PostgreSQL · Cloudflare Workers · Infisical
 
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
 
-## Personal Projects
+## <img src="assets/icons/project.svg" width="24" height="24" alt=""> Personal Projects
 
-### qvOS — Personal Linux Distribution
+### <img src="assets/icons/project.svg" width="20" height="20" alt=""> qvOS — Personal Linux Distribution
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="100%" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
 </p>
 
 **Ongoing development and customization.** My standalone Arch Linux distribution brings together a keyboard-first Hyprland desktop, native system tools, installation, updates, and recovery workflows.
 
-starting as a fork of dhh's Omacom, I build and adapt it around my own development, productivity, automation, and AI agent workflows. It's where my interest in Linux, interface design, and practical tooling comes together.
+Originally built on [Omarchy](https://github.com/basecamp/omarchy), I develop and adapt qvOS around my own development, productivity, automation, and AI agent workflows. It's where my interest in Linux, interface design, and practical tooling comes together.
 
 **Focus:** Arch Linux · Hyprland · Command-line tools · Desktop integration · Automation
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
-## Learning Journey
+## <img src="assets/icons/learn.svg" width="24" height="24" alt=""> Learning Journey
 
 **Student projects built through the [Boot.dev](https://www.boot.dev) curriculum.** I use these projects to practice Go, Python, backend fundamentals, containerization, retrieval, and software design, then extend them through hands-on experimentation.
 
@@ -64,7 +66,7 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 | [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Text processing, vocabulary analysis, and exports |
 | [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Markdown parsing, HTML generation, and static-site publishing |
 
-## Skills & tools
+## <img src="assets/icons/code.svg" width="24" height="24" alt=""> Skills & tools
 
 | Area | Skills |
 | --- | --- |
@@ -74,11 +76,11 @@ starting as a fork of dhh's Omacom, I build and adapt it around my own developme
 | **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
-### How I work with AI
+### <img src="assets/icons/learn.svg" width="20" height="20" alt=""> How I work with AI
 
 I use **Claude Code and Codex** throughout development for implementation, debugging, and code review. My workflow combines detailed prompts, iterative review, and human decision-making. I focus on understanding the requirements, evaluating the generated work, and checking how the pieces behave together.
 
-## Learning & credentials
+## <img src="assets/icons/learn.svg" width="24" height="24" alt=""> Learning & credentials
 
 I'm strengthening my backend foundations through **Boot.dev and IBM**, studying **Go, JavaScript, and TypeScript**, and expanding into **AWS and cloud engineering**. My current learning also includes frontend development with **Scrimba**, full-stack development with **Meta and Scrimba**, and AI engineering with **IBM and Scrimba**.
 
@@ -108,7 +110,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 **Have a role or project in mind?** I'm interested in backend development, AI applications, and business workflow automation. Reach me at **[contact@yaqyn.dev](mailto:contact@yaqyn.dev)**.
 
-## Learning Journey Projects
+## <img src="assets/icons/project.svg" width="24" height="24" alt=""> Project gallery
 
 <details>
 <summary><strong>Explore the 8 Boot.dev student projects</strong></summary>
