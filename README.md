@@ -116,19 +116,19 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
 
 <details>
-<summary><strong>Explore the ten Boot.dev projects</strong></summary>
+<summary><strong>Explore the learning journey projects</strong></summary>
 
 <p align="left">
-  <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
+  <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
   <a href="https://github.com/yaqyn/clibble-terminal-rpg"><img src="assets/projects/clibble-terminal-rpg.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Terminal RPG"></a>
-  <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
-  <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
-  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
-  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
-  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
-  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
-  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
-  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
+  <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
+  <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
+  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
+  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg?v=2" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
+  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg?v=2" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
+  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
+  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg?v=2" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
+  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
 </p>
 
 </details>

@@ -10,3 +10,11 @@ Canonical section meanings follow the workspace README standard. Icons share a 2
 | Secondary accent / surface | `#21262d` |
 
 Existing cover artwork remains canonical. Preserve its proportions and provenance; use secondary accents only where they clarify diagrams or product artwork. Heading icons carry the primary accent and retain a visible text label.
+
+## Learning Journey cards
+
+The gallery uses self-contained 132 × 132 SVG illustrations. Each follows its
+own project's visual direction rather than repeating a shared icon template.
+The source review, palette decisions, and regeneration command are documented
+in [projects/DESIGN.md](projects/DESIGN.md). Keep the cards left aligned and
+naturally wrapping; preserve the existing animated Career/Personal covers.
