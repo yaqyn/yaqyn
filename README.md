@@ -54,7 +54,7 @@ Public ISO downloads are not available yet; the repository documents source buil
 
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-Projects that began with [Boot.dev](https://www.boot.dev) and grew through independent work. Explore backend services, developer tools, and games below. Each repository includes instructions to try it yourself.
+Projects built along my learning journey, from backend services and developer tools to games. Explore the work below; each repository includes instructions to try it yourself.
 
 | Project | Engineering focus |
 | --- | --- |
