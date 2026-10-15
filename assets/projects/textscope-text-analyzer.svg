@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">TextScope</title><desc id="desc">Learning Journey Project — Text analyzer</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#dfb76c" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#dfb76c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16h24l12 8 12-8h24v52H54l-12 8-12-8H6Z M42 24v52 M15 31h13 M15 42h13 M54 31h14 M54 42h14 M15 53h13 M54 53h14"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">TextScope</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">Text analyzer</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">TextScope — Text analyzer</title>
+  <desc id="desc">Letters rise from a parchment book into frequency bars in an oxblood and gold letterpress study, drawn from TextScope&#x27;s printing-workshop cover.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#35181e" stroke="#84503b"/>
+  <g clip-path="url(#frame)">
+<g fill="none" stroke="#55282c" stroke-width=".7"><path d="M6 38h120M6 107h120M10 38v69m112-69v69"/></g>
+<path d="M15 81q24-11 51 4 27-15 51-4v23q-25-10-51 3-25-13-51-3Z" fill="#e8d7af" stroke="#bf955a" stroke-width="1.2"/>
+<path d="M66 85v22" stroke="#8f6844" stroke-width="1.4"/>
+<g fill="none" stroke="#aa8a61" stroke-width=".7"><path d="m22 86 34 3m-34 2 34 3m-34 2 34 3m-34 2 25 2m28-14 34-3m-34 8 34-3m-34 8 34-3m-34 8 25-2"/></g>
+<g fill="#bd9456"><path d="M74 52h4v23h-4ZM83 43h4v32h-4ZM92 58h4v17h-4ZM101 64h4v11h-4Z"/></g><text x="66" y="25" fill="#efdcb1" font-family="serif" font-size="19" text-anchor="middle" font-weight="700">TextScope</text><text x="25" y="62" fill="#efdcb1" font-family="serif" font-size="20" >a</text><text x="45" y="51" fill="#bd9456" font-family="serif" font-size="16" >e</text><text x="55" y="72" fill="#e2c698" font-family="serif" font-size="15" >t</text><text x="39" y="76" fill="#bd9456" font-family="serif" font-size="11" >i</text><text x="66" y="123" fill="#d9b775" font-family="monospace" font-size="7.1" text-anchor="middle">Read / count / discover</text>
+  </g>
+</svg>

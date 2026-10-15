@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">Orbit</title><desc id="desc">Learning Journey Project — Asteroids game</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#99ead0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#99ead0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="42" cy="42" rx="37" ry="22" transform="translate(48 31) scale(.66)"/><path d="m31 55 10-35 14 32-13-6Z M12 18l8-4 7 6-5 8-10-2Z"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Orbit</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">Asteroids game</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Orbit — Asteroids game</title>
+  <desc id="desc">A mint wireframe ship cuts through faceted coral asteroids on an indigo navigation chart, matching the game&#x27;s runtime palette.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#101327" stroke="#53516e"/>
+  <g clip-path="url(#frame)">
+<g fill="#a4adc5"><circle cx="18" cy="39" r=".8"/><circle cx="76" cy="40" r=".8"/><circle cx="117" cy="83" r=".8"/><circle cx="49" cy="97" r=".8"/><circle cx="9" cy="83" r=".8"/><circle cx="108" cy="44" r=".8"/></g>
+<g fill="none" stroke="#364058" stroke-width=".6"><ellipse cx="65" cy="77" rx="73" ry="26" transform="rotate(-25 65 77)"/><ellipse cx="65" cy="77" rx="45" ry="45"/><path d="M0 77h132M65 33v77"/></g>
+<path d="M-7 108c34-4 26-28 52-22S72 66 94 58" fill="none" stroke="#3c8e88" stroke-width="5"/>
+<path d="M-7 108c34-4 26-28 52-22S72 66 94 58" fill="none" stroke="#83efd0" stroke-width="1.4"/>
+<g fill="#2a233c" stroke="#f18c83" stroke-width="1.3" stroke-linejoin="round"><path d="m23 48 8-5 8 6-1 11-9 4-9-8Z"/><path d="m94 90 10-8 14 6 3 12-12 8-12-5Z"/><path d="m11 96 5-3 7 4-3 7-7-1Z"/></g>
+<g stroke="#a95e68" fill="none"><path d="m23 48 7 8 9-7m-9 7-1 8M104 82l3 13 14 5m-14-5-10 8"/></g>
+<path d="m91 47 9 21-12-4-7 6Z" fill="#101327" stroke="#83efd0" stroke-width="1.5"/>
+<path d="m87 69-6 9" stroke="#eef3e8" stroke-width="1.2"/><text x="66" y="27" fill="#eef3e8" font-family="sans-serif" font-size="25" text-anchor="middle" font-weight="800" font-style="italic">ORBIT</text><text x="66" y="123" fill="#83efd0" font-family="monospace" font-size="7.3" text-anchor="middle">Dodge / split / survive</text>
+  </g>
+</svg>

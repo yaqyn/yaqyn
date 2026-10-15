@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">CineSearch</title><desc id="desc">Learning Journey Project — Movie RAG engine</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#e8af62" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#e8af62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="14" width="55" height="54" rx="5"/><path d="M5 27h55 M5 54h55 M19 14v13 M45 14v13 M19 54v14 M45 54v14"/><circle cx="60" cy="55" r="16"/><path d="m71 67 10 12"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CineSearch</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">Movie RAG engine</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">CineSearch — Movie RAG engine</title>
+  <desc id="desc">A warm retro film projector illuminates a movie frame; reels and a winding filmstrip echo CineSearch&#x27;s cinema cover.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#2b181d" stroke="#a06445"/>
+  <g clip-path="url(#frame)">
+<g fill="none" stroke="#713a2d" stroke-width=".7"><path d="M-9 86C35 9 144 33 130 94S29 150 8 77ZM-4 67l139 24M15 44l106 63"/></g>
+<g fill="#e8af62"><circle cx="15" cy="39" r="1"/><circle cx="113" cy="37" r="1.4"/><circle cx="23" cy="96" r="1"/><circle cx="101" cy="102" r="1"/></g>
+<path d="m63 72 63-23v49Z" fill="#613528"/>
+<path d="M94 49h26v22H94Z" fill="#b15d39" stroke="#f0bc78"/>
+<path d="m96 67 8-11 6 6 7-10v17H96Z" fill="#291b20"/>
+<g fill="#43242a" stroke="#e8af62" stroke-width="1.2">
+<rect x="36" y="65" width="35" height="24" rx="3"/><circle cx="37" cy="54" r="14"/><circle cx="64" cy="49" r="12"/>
+</g>
+<g fill="#d58d52"><circle cx="37" cy="54" r="3"/><circle cx="31" cy="47" r="3"/><circle cx="45" cy="51" r="3"/><circle cx="34" cy="62" r="3"/><circle cx="63" cy="49" r="2.5"/><circle cx="58" cy="43" r="2.5"/><circle cx="70" cy="47" r="2.5"/><circle cx="62" cy="57" r="2.5"/></g>
+<path d="m71 69 8-4v23l-8-4ZM45 90l-7 13m25-13 7 13" fill="#a86436" stroke="#e8af62"/>
+<path d="M-4 100c31-10 51 18 79 3s48-2 64 6" fill="none" stroke="#b86043" stroke-width="9"/>
+<path d="M-4 100c31-10 51 18 79 3s48-2 64 6" fill="none" stroke="#f1bb73" stroke-width="1" stroke-dasharray="2 5"/><text x="66" y="26" fill="#ffd69a" font-family="serif" font-size="19" font-weight="700" font-style="italic" text-anchor="middle">CineSearch</text><text x="66" y="123" fill="#f1bb73" font-family="monospace" font-size="8" text-anchor="middle">Movie search &amp; RAG</text>
+  </g>
+</svg>
