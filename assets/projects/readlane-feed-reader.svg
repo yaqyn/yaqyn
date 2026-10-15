@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">Readlane</title><desc id="desc">Learning Journey Project — Feed reader</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#AEA5FF" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#AEA5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16h44v54H20zM30 29h24M30 40h24M30 51h16M12 24v54h44"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Readlane</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">Feed reader</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Readlane — Feed reader</title>
+  <desc id="desc">Violet reading lanes carry article pages through a miniature terminal landscape. RSS and Atom, collected locally.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#10111c" stroke="#50457f"/>
+  <g clip-path="url(#frame)">
+<g fill="none" stroke="#302B4D" stroke-width="1"><path d="M0 78 66 44l66 34-66 34ZM0 91l66-34 66 34-66 34"/></g>
+<path d="m-8 98 47-25 34 17 36-19 35 17" fill="none" stroke="#6253D9" stroke-width="14"/>
+<path d="m-8 98 47-25 34 17 36-19 35 17" fill="none" stroke="#AEA5FF" stroke-width="5"/>
+<path d="m-8 98 47-25 34 17 36-19 35 17" fill="none" stroke="#F0EFFA" stroke-width=".8"/>
+<g fill="#171525" stroke="#AEA5FF" stroke-width="1.2">
+<path d="M19 44h18v27H19Z"/><path d="M55 52h19v30H55Z"/><path d="M95 35h20v29H95Z"/>
+</g>
+<g stroke="#F0EFFA" stroke-width="1.3"><path d="M23 51h10m-10 5h10m-10 5h6M59 59h11m-11 5h11m-11 5h8M99 43h12m-12 5h12m-12 5h8"/></g>
+<g fill="#6253D9"><rect x="12" y="78" width="3" height="3"/><rect x="84" y="54" width="3" height="3"/><rect x="113" y="91" width="3" height="3"/></g><text x="12" y="24" fill="#AEA5FF" font-family="monospace" font-size="17" font-weight="700">$</text><text x="26" y="24" fill="#F0EFFA" font-family="monospace" font-size="15" font-weight="700">Readlane</text><text x="66" y="121" fill="#AEA5FF" font-family="monospace" font-size="8" text-anchor="middle">Feeds, at your pace.</text>
+  </g>
+</svg>

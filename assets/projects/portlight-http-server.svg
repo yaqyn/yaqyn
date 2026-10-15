@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">Portlight</title><desc id="desc">Learning Journey Project — HTTP server</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#45d6be" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#45d6be" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 72h38L53 26H31zM27 45h30M24 60h36M29 26V12h26v14M23 12h38M42 12V4M55 20l21-8M29 20L8 12"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Portlight</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">HTTP server</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Portlight — HTTP server</title>
+  <desc id="desc">A lighthouse built from stacked containers sends a quiet teal beacon across the sea. Small service, clear signals.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#0b1c28" stroke="#38616b"/>
+  <g clip-path="url(#frame)">
+<path d="M96 40 0 18v28Z" fill="#163a43"/>
+<path d="M96 40 0 28v9Z" fill="#285960"/>
+<g fill="none" stroke="#21505b" stroke-width=".7"><path d="m104 44 36 17m-36-11 38 27M2 76l35-10 34 6 22-13"/></g>
+<path d="m0 108 22-12 19 7 17-11 22 8 13-14 22 11 21-7v26H0Z" fill="#17343e"/>
+<path d="m57 105 18-8 13-11 19 5 15 13Z" fill="#08151e" stroke="#417780"/>
+<g fill="#173640" stroke="#78bdc5" stroke-width=".8">
+<path d="M85 90h25V74H85ZM87 73h21V59H87ZM90 58h15V46H90Z"/>
+</g>
+<g stroke="#427c87" stroke-width=".7"><path d="M89 76v12m5-12v12m5-12v12m5-12v12M91 61v10m5-10v10m5-10v10"/></g>
+<path d="M91 45h13V34H91Z" fill="#376c75" stroke="#b8f2ee"/>
+<path d="m89 33 9-7 8 7ZM97 21v5" fill="none" stroke="#8bd9dc"/>
+<path d="M96 36h4v7h-4Z" fill="#e4ffed"/>
+<g fill="none" stroke="#417780" stroke-width=".7"><path d="m-3 94 18-3 17 2m-22 13 15-3 15 2m-4 7 18-2 14 2m-51-12 13-2 12 2"/></g><text x="11" y="23" fill="#f2f2e8" font-family="monospace" font-size="15" font-weight="700">Portlight</text><text x="66" y="123" fill="#b8d8dc" font-family="monospace" font-size="6.7" text-anchor="middle">Small service. Clear signals.</text>
+  </g>
+</svg>

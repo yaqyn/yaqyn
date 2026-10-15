@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">Workbench</title><desc id="desc">Learning Journey Project — AI coding agent</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#d5a45b" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#d5a45b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 66h65 M18 66V42l22-14 18 12 8-18 M18 42l14 7 20-13 M59 14l14 8-8 14"/><circle cx="40" cy="28" r="5"/><circle cx="18" cy="42" r="5"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Workbench</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">AI coding agent</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Workbench — AI coding agent</title>
+  <desc id="desc">An amber mechanical drafting arm assembles code blocks on a measured engineering bench. Inspect, edit, execute.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#191811" stroke="#6c5635"/>
+  <g clip-path="url(#frame)">
+<g stroke="#3e3425" stroke-width=".5"><path d="M8 41h116M8 53h116M8 65h116M8 77h116M8 89h116M20 35v68m18-68v68m18-68v68m18-68v68m18-68v68m18-68v68"/></g>
+<path d="m9 95 54-22 62 24-54 21Z" fill="#342a20" stroke="#7e6541"/>
+<path d="m9 95 62 23v6L9 101Z" fill="#201c17"/>
+<g fill="#2d2921" stroke="#d4a45f" stroke-width="2.5" stroke-linejoin="round">
+<path d="M91 89h22v6H91ZM98 88l1-22-19-19 4-7 24 22-4 26Z"/>
+<path d="m82 42-29 13 2 7 30-13Z"/>
+</g>
+<g fill="#c29553" stroke="#f3d598"><circle cx="102" cy="65" r="4"/><circle cx="82" cy="45" r="4"/><circle cx="54" cy="58" r="3"/></g>
+<path d="m53 61-4 8 5 3m-1-11 6 8-4 3" fill="none" stroke="#d4a45f" stroke-width="1.5"/>
+<g fill="#73502c" stroke="#e3b86e" stroke-width=".8"><path d="m37 83 13-5 13 5-13 5Zm0 0v11l13 5V88m13-5v11l-13 5"/><path d="m57 92 12-5 12 5-12 5Zm0 0v8l12 5v-8m12-5v8l-12 5"/></g>
+<path d="m42 88 4 2-4 2m12-6-4 9" fill="none" stroke="#fff0bf"/><text x="66" y="23" fill="#f4e6c8" font-family="monospace" font-size="14" text-anchor="middle">Workbench</text><text x="66" y="123" fill="#d4a45f" font-family="monospace" font-size="7.2" text-anchor="middle">Inspect / edit / execute</text>
+  </g>
+</svg>

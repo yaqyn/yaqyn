@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc"><title id="title">Threadline</title><desc id="desc">Learning Journey Project — Social publishing API</desc><rect x="1" y="1" width="148" height="148" rx="9" fill="#1c1d20" stroke="#45474b"/><text x="12" y="20" fill="#39d6c0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700">BOOT.DEV · STUDENT</text><g transform="translate(48 31) scale(.66)" fill="none" stroke="#39d6c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="15" width="60" height="40" rx="8"/><path d="M23 55v14l17-14M22 28h34M22 40h23"/></g><text x="12" y="111" fill="#f2f1ed" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Threadline</text><text x="12" y="132" fill="#bfc1c5" font-family="Arial, Helvetica, sans-serif" font-size="10">Social publishing API</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Threadline — Social publishing API</title>
+  <desc id="desc">Ivory and turquoise threads weave between small post records, echoing Threadline&#x27;s connected accounts and publishing cover.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#101e29" stroke="#33636b"/>
+  <g clip-path="url(#frame)">
+<g fill="none" stroke-linecap="round">
+<path d="M-12 99C22 16 63 112 105 50s52 12 36 42" stroke="#134d56" stroke-width="17"/>
+<path d="M-12 99C22 16 63 112 105 50s52 12 36 42" stroke="#39d6c0" stroke-width="5"/>
+<path d="M-12 99C22 16 63 112 105 50s52 12 36 42" stroke="#b3f2e8" stroke-width=".8"/>
+<path d="M-8 55c39 69 64-33 99 7s53-2 59-18" stroke="#34575b" stroke-width="12"/>
+<path d="M-8 55c39 69 64-33 99 7s53-2 59-18" stroke="#f4f0e7" stroke-width="3"/>
+</g>
+<g fill="#142d38" stroke="#709d9e" stroke-width=".7">
+<rect x="16" y="43" width="36" height="21" rx="3"/><rect x="73" y="83" width="39" height="20" rx="3"/>
+</g>
+<g fill="#39d6c0"><circle cx="23" cy="50" r="2"/><circle cx="80" cy="90" r="2"/></g>
+<g stroke="#cbe2de"><path d="M29 49h16m-24 8h24M86 89h19m-26 7h26"/></g><text x="66" y="25" fill="#f4f0e7" font-family="sans-serif" font-size="16" text-anchor="middle" font-weight="700">Threadline</text><text x="66" y="121" fill="#a6d8d2" font-family="monospace" font-size="8" text-anchor="middle">Social publishing API</text>
+  </g>
+</svg>
