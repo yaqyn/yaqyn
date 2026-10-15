@@ -54,12 +54,12 @@ Public ISO downloads are not available yet; the repository documents source buil
 
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-**Projects developed through the [Boot.dev](https://www.boot.dev) curriculum and extended through independent work.** They cover Go and Python APIs, containerized services, retrieval systems, and developer tools. Each repository documents what it does and how to run it. The newer [Waymark — Private link workspace](https://github.com/yaqyn/waymark-link-shortener) explores persistent short links, authenticated management, and request observability in Go. Explore [Notely — CI/CD coursework](https://github.com/yaqyn/learn-cicd-starter) for the deployment exercises. For an offline starting point, [TextScope’s setup](https://github.com/yaqyn/textscope-text-analyzer/blob/main/README.md) needs only Python; [Clibble’s command guide](https://github.com/yaqyn/clibble-pokemon-cli/blob/main/docs/GUIDE.md) covers inspecting saved catches without an API request.
+**Projects developed through the [Boot.dev](https://www.boot.dev) curriculum and extended through independent work.** They cover Go and Python APIs, containerized services, retrieval systems, and developer tools. Each repository documents what it does and how to run it. The newer [Waymark — Private link workspace](https://github.com/yaqyn/waymark-link-shortener) explores persistent short links, authenticated management, and request observability in Go. Explore [Notely — CI/CD coursework](https://github.com/yaqyn/learn-cicd-starter) for the deployment exercises. For an offline starting point, [TextScope’s setup](https://github.com/yaqyn/textscope-text-analyzer/blob/main/README.md) needs only Python; [Clibble](https://github.com/yaqyn/clibble-pokemon-cli) offers an offline forest adventure in the terminal, with original wildlings and a saved field journal.
 
 | Project | Engineering focus |
 | --- | --- |
 | [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | RSS and Atom collection, PostgreSQL, keyboard reading, and persistent retries |
-| [Clibble — Pokémon CLI](https://github.com/yaqyn/clibble-pokemon-cli) | Terminal navigation, PokéAPI, persistent saves, and scriptable commands |
+| [Clibble — Terminal RPG](https://github.com/yaqyn/clibble-pokemon-cli) | Animated forest, original wildlings, persistent catch limits, and an optional web journal |
 | [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | Go and PostgreSQL APIs, authentication, renewable sessions, and membership webhooks |
 | [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | Docker builds, health probes, structured logs, and graceful shutdown in Go |
 | [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agent and tool boundaries |
@@ -120,7 +120,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 <p align="left">
   <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
-  <a href="https://github.com/yaqyn/clibble-pokemon-cli"><img src="assets/projects/clibble-pokemon-cli.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Pokémon CLI"></a>
+  <a href="https://github.com/yaqyn/clibble-pokemon-cli"><img src="assets/projects/clibble-terminal-rpg.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Terminal RPG"></a>
   <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
   <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
   <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
