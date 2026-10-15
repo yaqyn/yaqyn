@@ -54,7 +54,7 @@ Public ISO downloads are not available yet; the repository documents source buil
 
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-**Projects developed through the [Boot.dev](https://www.boot.dev) curriculum and extended through independent work.** They cover Go and Python APIs, containerized services, retrieval systems, and developer tools. Each repository documents what it does and how to run it. The newer [Waymark — Private link workspace](https://github.com/yaqyn/waymark-link-shortener) explores persistent short links, authenticated management, and request observability in Go. Explore [Notely — CI/CD coursework](https://github.com/yaqyn/learn-cicd-starter) for the deployment exercises. For an offline starting point, [TextScope’s setup](https://github.com/yaqyn/textscope-text-analyzer/blob/main/README.md) needs only Python; [Clibble](https://github.com/yaqyn/clibble-terminal-rpg) offers an offline forest adventure in the terminal, with original wildlings and a saved field journal.
+Projects that began with [Boot.dev](https://www.boot.dev) and grew through independent work. Explore backend services, developer tools, and games below. Each repository includes instructions to try it yourself.
 
 | Project | Engineering focus |
 | --- | --- |
