@@ -166,21 +166,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
 
 <details>
-<summary><strong>Browse project cards</strong></summary>
-
-**Career projects**
-
-<p align="left">
-  <a href="https://github.com/yaqyn/Modern"><img src="assets/projects/modern.svg" width="132" height="132" alt="Career Projects: Modern — Construction company website"></a>
-</p>
-
-**Personal projects**
-
-<p align="left">
-  <a href="https://github.com/yaqyn/omarchy-counter"><img src="assets/projects/omarchy-counter.svg" width="132" height="132" alt="Personal Projects: Counter — Omarchy tally counter"></a>
-</p>
-
-**Learning journey**
+<summary><strong>Explore the learning journey projects</strong></summary>
 
 <p align="left">
   <a href="https://github.com/yaqyn/leafmark-notebook"><img src="assets/projects/leafmark-notebook.svg" width="132" height="132" alt="Learning Journey Projects: Leafmark — Personal notebook"></a>

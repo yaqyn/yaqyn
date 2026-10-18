@@ -3,7 +3,9 @@
 The project cards are miniature studies of each project's own visual
 language. They share a 132 × 132 viewport and a quiet 8px corner radius, while
 composition, palette, type, and illustration follow the individual project.
-The profile gallery stays left aligned and wraps naturally. Names remain visible;
+The profile gallery contains only Learning Journey projects. Career and Personal
+projects stay in their main profile sections. The gallery stays left aligned
+and wraps naturally. Names remain visible;
 the link's alt text supplies the project category. Course provenance belongs in
 the profile's project context rather than repeated badges inside each image.
 
