@@ -6,9 +6,11 @@ Source direction and visual ownership: assets/projects/DESIGN.md.
 """
 from pathlib import Path
 from html import escape
+import argparse
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/projects"
+CHECK = False
 
 def text(x, y, value, size=10, fill="#eef3e8", font="monospace", extra=""):
     return f'<text x="{x}" y="{y}" fill="{fill}" font-family="{font}" font-size="{size}" {extra}>{escape(value)}</text>'
@@ -24,7 +26,12 @@ def card(slug, name, description, background, edge, art):
   </g>
 </svg>
 '''
-    (OUT / f"{slug}.svg").write_text(content)
+    path = OUT / f"{slug}.svg"
+    if CHECK:
+        if not path.exists() or path.read_text(encoding="utf-8") != content:
+            raise SystemExit(f"Generated card is out of date: {path.relative_to(ROOT)}")
+        return
+    path.write_text(content, encoding="utf-8")
 
 
 def readlane():
@@ -176,6 +183,11 @@ def folio():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
+    args = parser.parse_args()
+    CHECK = args.check
     for draw in [readlane, threadline, portlight, workbench, cinesearch, sitelens, orbit, textscope, folio]:
         draw()
-    print("Built nine project-specific SVG cards; approved Clibble card preserved.")
+    action = "Verified" if CHECK else "Built"
+    print(f"{action} nine project-specific SVG cards; approved Clibble card preserved.")
