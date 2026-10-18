@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Modern — Construction company website</title>
+  <desc id="desc">Green architectural silhouettes represent Modern&#x27;s bilingual construction services showcase.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#12231d" stroke="#446d57"/>
+  <g clip-path="url(#frame)">
+<g fill="#1e332d" stroke="#6ba38a" stroke-width=".8"><path d="M14 103V66l24-10v47ZM38 103V42l29-9v70ZM67 103V56l23 9v38ZM90 103V49l27 12v42Z"/></g>
+<g stroke="#9bc2ae" stroke-width="1"><path d="M21 72h10m-10 9h10m-10 9h10M45 49h15m-15 10h15m-15 10h15m-15 10h15m-15 10h15M74 69h9m-9 10h9m-9 10h9M97 66h13m-13 11h13m-13 11h13"/></g>
+<path d="M9 104h114" stroke="#9bc2ae"/><text x="66" y="24" fill="#eaf1eb" font-family="sans-serif" font-size="19" text-anchor="middle" font-weight="700">Modern</text><text x="66" y="122" fill="#9bc2ae" font-family="monospace" font-size="7.3" text-anchor="middle">Construction &amp; services</text>
+  </g>
+</svg>

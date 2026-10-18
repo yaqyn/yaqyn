@@ -34,6 +34,20 @@ The public showcase uses fictional data and shared demonstration accounts.
 
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
+### <img src="assets/icons/career.svg" width="20" height="20" alt=""> Modern — Construction company website
+
+<p align="left">
+  <a href="https://github.com/yaqyn/Modern"><img src="assets/modern.webp" width="100%" alt="Modern Construction for Contracting — architectural cover and green identity"></a>
+</p>
+
+**A bilingual website for Modern Construction for Contracting.** Visitors can explore services, filter project galleries, and carry service or project context into an inquiry. English and Arabic layouts support both reading directions, with light and dark themes.
+
+**Stack:** TypeScript · React · TanStack Start · Tailwind CSS · i18next · Cloudflare Workers
+
+The public repository presents the website and selected interface captures; application source remains private. The materials catalog and request flow are still in preparation.
+
+[Explore the showcase](https://github.com/yaqyn/Modern) · [Visit the website](https://www.moderngroupco.com/)
+
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Personal projects
 
 ### <img src="assets/icons/projects.svg" width="20" height="20" alt=""> qvOS — Personal Linux distribution
@@ -42,9 +56,9 @@ The public showcase uses fictional data and shared demonstration accounts.
   <a href="https://github.com/yaqyn/qvOS"><img src="assets/qvos.gif" width="100%" alt="Personal Projects: qvOS — Personal Linux Distribution"></a>
 </p>
 
-**An ongoing Arch Linux distribution project.** qvOS brings together a keyboard-first Hyprland desktop, native system tools, and the practical work of installation, updates, and recovery.
+**A standalone Arch Linux distribution in active development.** qvOS brings together a keyboard-first Hyprland desktop, native system tools, and the practical work of installation, updates, and recovery.
 
-qvOS began with [Omarchy](https://github.com/basecamp/omarchy) and continues to evolve around my development, productivity, automation, and AI agent workflows. Daily use gives those decisions a direct test.
+qvOS uses [Omarchy](https://github.com/basecamp/omarchy)'s signed Stable package repositories, distributed through Cloudflare, as a foundation for stability. It maintains its own desktop, tools, installer, and release lifecycle. Its desktop and tools evolve around my development, productivity, automation, and AI agent workflows, with daily use guiding those decisions.
 
 **Focus:** Arch Linux · Hyprland · Command-line tools · Desktop integration · Automation
 
@@ -52,12 +66,24 @@ Public ISO downloads are not available yet; the repository documents source buil
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
+### <img src="assets/icons/projects.svg" width="20" height="20" alt=""> Counter — Quiet counting in Omarchy
+
+**Keep a tally without leaving the task at hand.** A chosen key adds one count for azkar, repetitions, or everyday tallies. The Omarchy bar displays the number; its native panel provides Reset, Undo, and a key chooser. The total and selected key persist across restarts.
+
+**Stack:** Python · QML · Quickshell · Hyprland
+
+Built for Omarchy's native plugin system. The interface follows the desktop theme, and shortcut conflict checks protect existing bindings.
+
+[Explore Counter](https://github.com/yaqyn/omarchy-counter)
+
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-Projects built along my learning journey, from backend services and developer tools to games. Explore the work below; each repository includes instructions to try it yourself. For a deeper walkthrough, follow [Folio's build notes](https://github.com/yaqyn/folio-static-site/blob/main/content/notes/static-sites/index.md), [Waymark's request-diagnosis guide](https://github.com/yaqyn/waymark-link-shortener/blob/main/docs/observability.md), or [Readlane's operations guide](https://github.com/yaqyn/readlane-feed-reader/blob/main/docs/operations.md). For a private notebook you can run with local SQLite, explore [Leafmark](https://github.com/yaqyn/leafmark-notebook), the project formerly named Notely.
+Projects grown from Boot.dev coursework into tools, services, and games, with extensions and course origins documented in each repository. Run a personal notebook with [Leafmark](https://github.com/yaqyn/leafmark-notebook), manage shareable links with [Waymark](https://github.com/yaqyn/waymark-link-shortener), or explore the rest below. For deeper walkthroughs, read [Folio's build notes](https://github.com/yaqyn/folio-static-site/blob/main/content/notes/static-sites/index.md), [Waymark's request-diagnosis guide](https://github.com/yaqyn/waymark-link-shortener/blob/main/docs/observability.md), or [Readlane's operations guide](https://github.com/yaqyn/readlane-feed-reader/blob/main/docs/operations.md).
 
 | Project | Engineering focus |
 | --- | --- |
+| [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Private plain-text notes, SQLite or Turso, revocable sessions, and exportable drafts |
+| [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Editable short links, persistent click totals, structured logs, and optional tracing |
 | [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | RSS and Atom collection, PostgreSQL, keyboard reading, and persistent retries |
 | [Clibble — Terminal RPG](https://github.com/yaqyn/clibble-terminal-rpg) | Animated forest, original wildlings, persistent catch limits, and an optional web journal |
 | [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | Go and PostgreSQL APIs, authentication, renewable sessions, and membership webhooks |
@@ -115,10 +141,24 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
 
+**Career projects**
+
+<p align="left">
+  <a href="https://github.com/yaqyn/Modern"><img src="assets/projects/modern.svg" width="132" height="132" alt="Career Projects: Modern — Construction company website"></a>
+</p>
+
+**Personal projects**
+
+<p align="left">
+  <a href="https://github.com/yaqyn/omarchy-counter"><img src="assets/projects/omarchy-counter.svg" width="132" height="132" alt="Personal Projects: Counter — Omarchy tally counter"></a>
+</p>
+
 <details>
 <summary><strong>Explore the learning journey projects</strong></summary>
 
 <p align="left">
+  <a href="https://github.com/yaqyn/leafmark-notebook"><img src="assets/projects/leafmark-notebook.svg" width="132" height="132" alt="Learning Journey Projects: Leafmark — Personal notebook"></a>
+  <a href="https://github.com/yaqyn/waymark-link-shortener"><img src="assets/projects/waymark-link-shortener.svg" width="132" height="132" alt="Learning Journey Projects: Waymark — Link shortener"></a>
   <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
   <a href="https://github.com/yaqyn/clibble-terminal-rpg"><img src="assets/projects/clibble-terminal-rpg.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Terminal RPG"></a>
   <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>

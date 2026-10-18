@@ -1,6 +1,6 @@
 # Project gallery artwork
 
-The Learning Journey cards are miniature studies of each project's own visual
+The project cards are miniature studies of each project's own visual
 language. They share a 132 × 132 viewport and a quiet 8px corner radius, while
 composition, palette, type, and illustration follow the individual project.
 The profile gallery stays left aligned and wraps naturally. Names remain visible;
@@ -10,11 +10,16 @@ the profile's project context rather than repeated badges inside each image.
 ## Sources and direction
 
 The project READMEs, current covers, and available DESIGN.md files were reviewed
-on 2026-10-15. These illustrations are interpretations of the established artwork
+on 2026-10-15. Modern, Counter, Leafmark, and Waymark were added on
+2026-10-18 after reviewing their current public documentation. These illustrations are interpretations of the established artwork
 and behavior, rather than screenshots or additional product features.
 
 | Project | Reviewed source | Card direction |
 | --- | --- | --- |
+| Modern | Public showcase README and cover | Green architectural silhouettes; career showcase with private application source. |
+| Counter | README, DESIGN.md and readme-assets/STYLE.md | Slate numeric display and pale-blue F1 keycap; documentation colors only. |
+| Leafmark | README and DESIGN.md | Blue notebook rail, folded writing sheet and serif title on a pale desk. |
+| Waymark | README and DESIGN.md | Pale-blue route-marker post over ink-blue paths. |
 | Readlane | README cover and DESIGN.md | Violet terminal reading lanes, floating article pages, integrated dollar prompt; monospace type. |
 | Clibble | Approved card and runtime forest palette | Pine trees, leaf-filled centered selection, rain and Mosskin. The existing card is preserved. |
 | Threadline | README and social API cover | Turquoise and ivory threads weave between post records; compact sans-serif type. |
@@ -38,7 +43,7 @@ From the profile repository root:
 python3 scripts/build_project_cards.py
 ```
 
-This standard-library script generates the nine redesigned cards. Clibble remains
+This standard-library script generates thirteen cards. Clibble remains
 an independently authored SVG. Every card is self-contained: no scripts, linked
 images, web fonts, filters, animation, or external network requests. System font
 families provide fallbacks without downloading a custom font.

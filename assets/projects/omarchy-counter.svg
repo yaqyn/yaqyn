@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Counter — Omarchy tally counter</title>
+  <desc id="desc">A quiet numeric display connected to an F1 keycap, following Counter&#x27;s documentation cover.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#101922" stroke="#263a46"/>
+  <g clip-path="url(#frame)">
+<rect x="17" y="38" width="98" height="43" rx="7" fill="#14222c" stroke="#263a46"/>
+<path d="M66 82v8" stroke="#a8cbd7"/>
+<rect x="47" y="91" width="38" height="20" rx="4" fill="#1e3440" stroke="#45616f"/><text x="66" y="25" fill="#edf3f7" font-family="sans-serif" font-size="17" text-anchor="middle">Counter</text><text x="66" y="69" fill="#edf3f7" font-family="monospace" font-size="29" text-anchor="middle">33</text><text x="66" y="105" fill="#a8cbd7" font-family="monospace" font-size="11" text-anchor="middle">F1</text><text x="66" y="124" fill="#a8cbd7" font-family="monospace" font-size="8" text-anchor="middle">Keep your place</text>
+  </g>
+</svg>

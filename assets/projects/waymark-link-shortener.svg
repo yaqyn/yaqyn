@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Waymark — Link shortener</title>
+  <desc id="desc">A pale blue route-marker post points toward editable destinations over ink-blue paths.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#101b2a" stroke="#40556c"/>
+  <g clip-path="url(#frame)">
+<g fill="none" stroke="#40556c"><path d="M0 102 48 83 76 90l56-25M0 114l48-19 28 7 56-25"/></g>
+<path d="M65 39v67" stroke="#afc0d4" stroke-width="4"/>
+<path d="M40 43h44l12 10-12 10H40Z" fill="#18283a" stroke="#a9d5ff" stroke-width="1.5"/>
+<path d="M91 70H49L37 80l12 10h42Z" fill="#18283a" stroke="#a9d5ff" stroke-width="1.5"/>
+<g stroke="#a9d5ff" stroke-width="2"><path d="M49 53h30m-24 27h26"/></g><text x="66" y="25" fill="#f0f5fc" font-family="serif" font-size="19" text-anchor="middle">Waymark</text><text x="66" y="122" fill="#a9d5ff" font-family="monospace" font-size="8" text-anchor="middle">Links worth sharing</text>
+  </g>
+</svg>

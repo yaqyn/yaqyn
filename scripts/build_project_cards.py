@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the nine project-specific SVG studies beside the approved Clibble card.
+"""Build the project-specific SVG studies beside the approved Clibble card.
 
 No network, third-party packages, raster assets, fonts, or animation required.
 Source direction and visual ownership: assets/projects/DESIGN.md.
@@ -182,12 +182,56 @@ def folio():
     card("folio-static-site", "Folio — Site and generator", "A miniature charcoal portfolio with the lowercase yaqyn wordmark, editorial rules, and a Markdown-to-HTML publishing diagram.", "#1c1d20", "#45474b", art)
 
 
+def leafmark():
+    art = '''<path d="M13 42h106v65H13Z" fill="#dce2ed"/>
+<rect x="19" y="36" width="94" height="67" rx="4" fill="#ffffff" stroke="#365bc4"/>
+<path d="M19 40v59q0 4 4 4h19V36H23q-4 0-4 4Z" fill="#365bc4"/>
+<g stroke="#c1d0f4" stroke-width="2"><path d="M25 49h10m-10 9h10m-10 9h10"/></g>
+<path d="M59 45h24l12 12v34H59Z" fill="#f5f7fb" stroke="#61708a"/>
+<path d="M83 45v12h12" fill="#dce2ed" stroke="#61708a"/>
+<g stroke="#61708a"><path d="M65 66h23m-23 7h23m-23 7h16"/></g>'''
+    art += text(66, 25, "Leafmark", 19, "#202d45", "serif", 'text-anchor="middle"')
+    art += text(66, 122, "A home for your notes", 8, "#365bc4", extra='text-anchor="middle"')
+    card("leafmark-notebook", "Leafmark — Personal notebook", "A blue notebook rail and folded writing sheet echo Leafmark's private plain-text workspace.", "#f5f7fb", "#dce2ed", art)
+
+
+def waymark():
+    art = '''<g fill="none" stroke="#40556c"><path d="M0 102 48 83 76 90l56-25M0 114l48-19 28 7 56-25"/></g>
+<path d="M65 39v67" stroke="#afc0d4" stroke-width="4"/>
+<path d="M40 43h44l12 10-12 10H40Z" fill="#18283a" stroke="#a9d5ff" stroke-width="1.5"/>
+<path d="M91 70H49L37 80l12 10h42Z" fill="#18283a" stroke="#a9d5ff" stroke-width="1.5"/>
+<g stroke="#a9d5ff" stroke-width="2"><path d="M49 53h30m-24 27h26"/></g>'''
+    art += text(66, 25, "Waymark", 19, "#f0f5fc", "serif", 'text-anchor="middle"')
+    art += text(66, 122, "Links worth sharing", 8, "#a9d5ff", extra='text-anchor="middle"')
+    card("waymark-link-shortener", "Waymark — Link shortener", "A pale blue route-marker post points toward editable destinations over ink-blue paths.", "#101b2a", "#40556c", art)
+
+
+def counter():
+    art = '''<rect x="17" y="38" width="98" height="43" rx="7" fill="#14222c" stroke="#263a46"/>
+<path d="M66 82v8" stroke="#a8cbd7"/>
+<rect x="47" y="91" width="38" height="20" rx="4" fill="#1e3440" stroke="#45616f"/>'''
+    art += text(66, 25, "Counter", 17, "#edf3f7", "sans-serif", 'text-anchor="middle"')
+    art += text(66, 69, "33", 29, "#edf3f7", extra='text-anchor="middle"')
+    art += text(66, 105, "F1", 11, "#a8cbd7", extra='text-anchor="middle"')
+    art += text(66, 124, "Keep your place", 8, "#a8cbd7", extra='text-anchor="middle"')
+    card("omarchy-counter", "Counter — Omarchy tally counter", "A quiet numeric display connected to an F1 keycap, following Counter's documentation cover.", "#101922", "#263a46", art)
+
+
+def modern():
+    art = '''<g fill="#1e332d" stroke="#6ba38a" stroke-width=".8"><path d="M14 103V66l24-10v47ZM38 103V42l29-9v70ZM67 103V56l23 9v38ZM90 103V49l27 12v42Z"/></g>
+<g stroke="#9bc2ae" stroke-width="1"><path d="M21 72h10m-10 9h10m-10 9h10M45 49h15m-15 10h15m-15 10h15m-15 10h15m-15 10h15M74 69h9m-9 10h9m-9 10h9M97 66h13m-13 11h13m-13 11h13"/></g>
+<path d="M9 104h114" stroke="#9bc2ae"/>'''
+    art += text(66, 24, "Modern", 19, "#eaf1eb", "sans-serif", 'text-anchor="middle" font-weight="700"')
+    art += text(66, 122, "Construction & services", 7.3, "#9bc2ae", extra='text-anchor="middle"')
+    card("modern", "Modern — Construction company website", "Green architectural silhouettes represent Modern's bilingual construction services showcase.", "#12231d", "#446d57", art)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
     args = parser.parse_args()
     CHECK = args.check
-    for draw in [readlane, threadline, portlight, workbench, cinesearch, sitelens, orbit, textscope, folio]:
+    for draw in [modern, counter, leafmark, waymark, readlane, threadline, portlight, workbench, cinesearch, sitelens, orbit, textscope, folio]:
         draw()
     action = "Verified" if CHECK else "Built"
-    print(f"{action} nine project-specific SVG cards; approved Clibble card preserved.")
+    print(f"{action} 13 project-specific SVG cards; approved Clibble card preserved.")

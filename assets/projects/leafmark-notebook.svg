@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
+  <title id="title">Leafmark — Personal notebook</title>
+  <desc id="desc">A blue notebook rail and folded writing sheet echo Leafmark&#x27;s private plain-text workspace.</desc>
+  <defs><clipPath id="frame"><rect x="1" y="1" width="130" height="130" rx="8"/></clipPath></defs>
+  <rect x="1" y="1" width="130" height="130" rx="8" fill="#f5f7fb" stroke="#dce2ed"/>
+  <g clip-path="url(#frame)">
+<path d="M13 42h106v65H13Z" fill="#dce2ed"/>
+<rect x="19" y="36" width="94" height="67" rx="4" fill="#ffffff" stroke="#365bc4"/>
+<path d="M19 40v59q0 4 4 4h19V36H23q-4 0-4 4Z" fill="#365bc4"/>
+<g stroke="#c1d0f4" stroke-width="2"><path d="M25 49h10m-10 9h10m-10 9h10"/></g>
+<path d="M59 45h24l12 12v34H59Z" fill="#f5f7fb" stroke="#61708a"/>
+<path d="M83 45v12h12" fill="#dce2ed" stroke="#61708a"/>
+<g stroke="#61708a"><path d="M65 66h23m-23 7h23m-23 7h16"/></g><text x="66" y="25" fill="#202d45" font-family="serif" font-size="19" text-anchor="middle">Leafmark</text><text x="66" y="122" fill="#365bc4" font-family="monospace" font-size="8" text-anchor="middle">A home for your notes</text>
+  </g>
+</svg>
