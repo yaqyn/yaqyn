@@ -45,7 +45,7 @@ The public showcase uses fictional data and shared demonstration accounts.
 <summary><strong>Modern — Website details and cover</strong></summary>
 
 <p align="left">
-  <a href="https://github.com/yaqyn/Modern"><img src="assets/modern.webp" width="100%" alt="Modern Construction for Contracting — architectural cover and green identity"></a>
+  <a href="assets/modern.webp"><img src="assets/modern.gif" width="100%" alt="Modern Construction for Contracting — green brand mark and descending architectural forms"></a>
 </p>
 
 **A bilingual website for Modern Construction for Contracting.** Visitors can explore services, filter project galleries, and carry service or project context into an inquiry. English and Arabic layouts support both reading directions, with light and dark themes.
