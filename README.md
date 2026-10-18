@@ -16,6 +16,13 @@
 
 ## <img src="assets/icons/career.svg" width="24" height="24" alt=""> Career projects
 
+| Project | Engineering focus |
+| --- | --- |
+| [HyperQuote — Business Operations](https://github.com/yaqyn/HyperQuote) | Procurement, shared operational records, and coordinated delivery workflows |
+| [Modern — Construction Website](https://github.com/yaqyn/Modern) | English and Arabic interfaces, service discovery, and contextual inquiries |
+
+Public showcases document the products; application source remains private.
+
 ### <img src="assets/icons/career.svg" width="20" height="20" alt=""> HyperQuote — Connected business operations
 
 <p align="left">
@@ -34,7 +41,8 @@ The public showcase uses fictional data and shared demonstration accounts.
 
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
-### <img src="assets/icons/career.svg" width="20" height="20" alt=""> Modern — Construction company website
+<details>
+<summary><strong>Modern — Website details and cover</strong></summary>
 
 <p align="left">
   <a href="https://github.com/yaqyn/Modern"><img src="assets/modern.webp" width="100%" alt="Modern Construction for Contracting — architectural cover and green identity"></a>
@@ -48,7 +56,14 @@ The public repository presents the website and selected interface captures; appl
 
 [Explore the showcase](https://github.com/yaqyn/Modern) · [Visit the website](https://www.moderngroupco.com/)
 
+</details>
+
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Personal projects
+
+| Project | Engineering focus |
+| --- | --- |
+| [qvOS — Linux Distribution](https://github.com/yaqyn/qvOS) | Native desktop tools, installation, signed updates, and recovery |
+| [Counter — Tally Counter](https://github.com/yaqyn/omarchy-counter) | Focus-preserving keyboard input, native desktop controls, and persistent state |
 
 ### <img src="assets/icons/projects.svg" width="20" height="20" alt=""> qvOS — Personal Linux distribution
 
@@ -58,7 +73,7 @@ The public repository presents the website and selected interface captures; appl
 
 **A standalone Arch Linux distribution in active development.** qvOS brings together a keyboard-first Hyprland desktop, native system tools, and the practical work of installation, updates, and recovery.
 
-qvOS uses [Omarchy](https://github.com/basecamp/omarchy)'s signed Stable package repositories, distributed through Cloudflare, as a foundation for stability. It maintains its own desktop, tools, installer, and release lifecycle. Its desktop and tools evolve around my development, productivity, automation, and AI agent workflows, with daily use guiding those decisions.
+Its own desktop, tools, installer, and release lifecycle support my development and automation workflows. Daily use guides decisions about installation, maintenance, and recovery.
 
 **Focus:** Arch Linux · Hyprland · Command-line tools · Desktop integration · Automation
 
@@ -66,7 +81,14 @@ Public ISO downloads are not available yet; the repository documents source buil
 
 [Explore qvOS](https://github.com/yaqyn/qvOS) · [Read about the architecture](https://github.com/yaqyn/qvOS/blob/OS/qvcore/README.md)
 
-### <img src="assets/icons/projects.svg" width="20" height="20" alt=""> Counter — Quiet counting in Omarchy
+Package foundation: [Omarchy](https://github.com/basecamp/omarchy)'s signed Stable repositories, distributed through Cloudflare, support the focus on stability.
+
+<details>
+<summary><strong>Counter — Plugin details and cover</strong></summary>
+
+<p align="left">
+  <a href="https://github.com/yaqyn/omarchy-counter"><img src="assets/counter.svg" width="100%" alt="Counter — tally display connected to an F1 key"></a>
+</p>
 
 **Keep a tally without leaving the task at hand.** A chosen key adds one count for azkar, repetitions, or everyday tallies. The Omarchy bar displays the number; its native panel provides Reset, Undo, and a key chooser. The total and selected key persist across restarts.
 
@@ -76,9 +98,11 @@ Built for Omarchy's native plugin system. The interface follows the desktop them
 
 [Explore Counter](https://github.com/yaqyn/omarchy-counter)
 
+</details>
+
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-Projects grown from Boot.dev coursework into tools, services, and games, with extensions and course origins documented in each repository. Run a personal notebook with [Leafmark](https://github.com/yaqyn/leafmark-notebook), manage shareable links with [Waymark](https://github.com/yaqyn/waymark-link-shortener), or explore the rest below. For deeper walkthroughs, read [Folio's build notes](https://github.com/yaqyn/folio-static-site/blob/main/content/notes/static-sites/index.md), [Waymark's request-diagnosis guide](https://github.com/yaqyn/waymark-link-shortener/blob/main/docs/observability.md), or [Readlane's operations guide](https://github.com/yaqyn/readlane-feed-reader/blob/main/docs/operations.md).
+Tools, services, and games developed through Boot.dev coursework and extended through independent work. Each repository documents its origins, implementation, and run instructions.
 
 | Project | Engineering focus |
 | --- | --- |
@@ -141,6 +165,9 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
 
+<details>
+<summary><strong>Browse project cards</strong></summary>
+
 **Career projects**
 
 <p align="left">
@@ -153,8 +180,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
   <a href="https://github.com/yaqyn/omarchy-counter"><img src="assets/projects/omarchy-counter.svg" width="132" height="132" alt="Personal Projects: Counter — Omarchy tally counter"></a>
 </p>
 
-<details>
-<summary><strong>Explore the learning journey projects</strong></summary>
+**Learning journey**
 
 <p align="left">
   <a href="https://github.com/yaqyn/leafmark-notebook"><img src="assets/projects/leafmark-notebook.svg" width="132" height="132" alt="Learning Journey Projects: Leafmark — Personal notebook"></a>
