@@ -165,7 +165,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
 
-<details>
+<details open>
 <summary><strong>Explore the learning journey projects</strong></summary>
 
 <p align="left">
