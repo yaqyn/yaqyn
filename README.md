@@ -54,7 +54,7 @@ Public ISO downloads are not available yet; the repository documents source buil
 
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-Projects built along my learning journey, from backend services and developer tools to games. Explore the work below; each repository includes instructions to try it yourself. For a deeper walkthrough, follow [Folio's build notes](https://github.com/yaqyn/folio-static-site/blob/main/content/notes/static-sites/index.md), [Waymark's request-diagnosis guide](https://github.com/yaqyn/waymark-link-shortener/blob/main/docs/observability.md), or [Readlane's operations guide](https://github.com/yaqyn/readlane-feed-reader/blob/main/docs/operations.md). For a private notebook you can run with local SQLite, explore [Leafmark](https://github.com/yaqyn/leafmark), the project formerly named Notely.
+Projects built along my learning journey, from backend services and developer tools to games. Explore the work below; each repository includes instructions to try it yourself. For a deeper walkthrough, follow [Folio's build notes](https://github.com/yaqyn/folio-static-site/blob/main/content/notes/static-sites/index.md), [Waymark's request-diagnosis guide](https://github.com/yaqyn/waymark-link-shortener/blob/main/docs/observability.md), or [Readlane's operations guide](https://github.com/yaqyn/readlane-feed-reader/blob/main/docs/operations.md). For a private notebook you can run with local SQLite, explore [Leafmark](https://github.com/yaqyn/leafmark-notebook), the project formerly named Notely.
 
 | Project | Engineering focus |
 | --- | --- |
