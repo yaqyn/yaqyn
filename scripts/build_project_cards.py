@@ -11,11 +11,13 @@ import argparse
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/projects"
 CHECK = False
+GENERATED = set()
 
 def text(x, y, value, size=10, fill="#eef3e8", font="monospace", extra=""):
     return f'<text x="{x}" y="{y}" fill="{fill}" font-family="{font}" font-size="{size}" {extra}>{escape(value)}</text>'
 
 def card(slug, name, description, background, edge, art):
+    GENERATED.add(f"{slug}.svg")
     content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc">
   <title id="title">{escape(name)}</title>
   <desc id="desc">{escape(description)}</desc>
@@ -233,5 +235,10 @@ if __name__ == "__main__":
     CHECK = args.check
     for draw in [modern, counter, leafmark, waymark, readlane, threadline, portlight, workbench, cinesearch, sitelens, orbit, textscope, folio]:
         draw()
+    if CHECK:
+        approved_manual = {"clibble-terminal-rpg.svg", "hyperquote.svg", "qvos.svg"}
+        unexpected = {path.name for path in OUT.glob("*.svg")} - GENERATED - approved_manual
+        if unexpected:
+            raise SystemExit("Unexpected project card(s): " + ", ".join(sorted(unexpected)))
     action = "Verified" if CHECK else "Built"
     print(f"{action} 13 project-specific SVG cards; approved Clibble card preserved.")
