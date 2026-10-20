@@ -7,6 +7,7 @@ Source direction and visual ownership: assets/projects/DESIGN.md.
 from pathlib import Path
 from html import escape
 import argparse
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/projects"
@@ -34,6 +35,23 @@ def card(slug, name, description, background, edge, art):
             raise SystemExit(f"Generated card is out of date: {path.relative_to(ROOT)}")
         return
     path.write_text(content, encoding="utf-8")
+
+
+def verify_accessibility(path):
+    root = ET.parse(path).getroot()
+    children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
+    if (
+        root.get("role") != "img"
+        or root.get("aria-labelledby") != "title desc"
+        or children.get("title") is None
+        or children["title"].get("id") != "title"
+        or children.get("desc") is None
+        or children["desc"].get("id") != "desc"
+    ):
+        raise SystemExit(
+            "Project card lacks accessible title/description: "
+            f"{path.relative_to(ROOT)}"
+        )
 
 
 def readlane():
@@ -240,5 +258,7 @@ if __name__ == "__main__":
         unexpected = {path.name for path in OUT.glob("*.svg")} - GENERATED - approved_manual
         if unexpected:
             raise SystemExit("Unexpected project card(s): " + ", ".join(sorted(unexpected)))
+        for path in OUT.glob("*.svg"):
+            verify_accessibility(path)
     action = "Verified" if CHECK else "Built"
     print(f"{action} 13 project-specific SVG cards; approved Clibble card preserved.")
