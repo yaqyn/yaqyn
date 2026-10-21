@@ -40,6 +40,7 @@ def card(slug, name, description, background, edge, art):
 def verify_accessibility(path):
     root = ET.parse(path).getroot()
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
+    ids = [element.get("id") for element in root.iter() if element.get("id")]
     if (
         root.get("role") != "img"
         or root.get("aria-labelledby") != "title desc"
@@ -47,6 +48,7 @@ def verify_accessibility(path):
         or children["title"].get("id") != "title"
         or children.get("desc") is None
         or children["desc"].get("id") != "desc"
+        or len(ids) != len(set(ids))
     ):
         raise SystemExit(
             "Project card lacks accessible title/description: "
