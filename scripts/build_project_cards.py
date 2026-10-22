@@ -46,8 +46,10 @@ def verify_accessibility(path):
         or root.get("aria-labelledby") != "title desc"
         or children.get("title") is None
         or children["title"].get("id") != "title"
+        or not "".join(children["title"].itertext()).strip()
         or children.get("desc") is None
         or children["desc"].get("id") != "desc"
+        or not "".join(children["desc"].itertext()).strip()
         or len(ids) != len(set(ids))
     ):
         raise SystemExit(
