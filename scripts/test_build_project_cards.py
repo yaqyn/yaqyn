@@ -6,6 +6,14 @@ from build_project_cards import verify_accessibility
 
 
 class CardAccessibilityTests(unittest.TestCase):
+    def test_active_svg_content_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            for active in ('<script>alert(1)</script>', '<g onclick="alert(1)"/>'):
+                path = Path(directory) / "active.svg"
+                path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc>{active}</svg>')
+                with self.subTest(active=active), self.assertRaises(SystemExit):
+                    verify_accessibility(path)
+
     def test_empty_accessible_text_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             for empty in ("title", "desc"):

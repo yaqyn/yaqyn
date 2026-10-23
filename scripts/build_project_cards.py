@@ -14,6 +14,12 @@ OUT = ROOT / "assets/projects"
 CHECK = False
 GENERATED = set()
 
+def display_path(path):
+    try:
+        return path.relative_to(ROOT)
+    except ValueError:
+        return path
+
 def text(x, y, value, size=10, fill="#eef3e8", font="monospace", extra=""):
     return f'<text x="{x}" y="{y}" fill="{fill}" font-family="{font}" font-size="{size}" {extra}>{escape(value)}</text>'
 
@@ -32,7 +38,7 @@ def card(slug, name, description, background, edge, art):
     path = OUT / f"{slug}.svg"
     if CHECK:
         if not path.exists() or path.read_text(encoding="utf-8") != content:
-            raise SystemExit(f"Generated card is out of date: {path.relative_to(ROOT)}")
+            raise SystemExit(f"Generated card is out of date: {display_path(path)}")
         return
     path.write_text(content, encoding="utf-8")
 
@@ -41,6 +47,11 @@ def verify_accessibility(path):
     root = ET.parse(path).getroot()
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
     ids = [element.get("id") for element in root.iter() if element.get("id")]
+    unsafe = any(
+        element.tag.rsplit("}", 1)[-1] == "script"
+        or any(name.lower().startswith("on") for name in element.attrib)
+        for element in root.iter()
+    )
     if (
         root.get("role") != "img"
         or root.get("aria-labelledby") != "title desc"
@@ -51,10 +62,11 @@ def verify_accessibility(path):
         or children["desc"].get("id") != "desc"
         or not "".join(children["desc"].itertext()).strip()
         or len(ids) != len(set(ids))
+        or unsafe
     ):
         raise SystemExit(
             "Project card lacks accessible title/description: "
-            f"{path.relative_to(ROOT)}"
+            f"{display_path(path)}"
         )
 
 
