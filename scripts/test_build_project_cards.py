@@ -16,10 +16,34 @@ class CardAccessibilityTests(unittest.TestCase):
 
     def test_external_svg_references_are_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
-            for reference in ("https://example.com/image.png", "data:image/png;base64,AAAA", "javascript:alert(1)", "//example.com/image.png"):
+            for reference in (
+                "https://example.com/image.png",
+                "data:image/png;base64,AAAA",
+                "javascript:alert(1)",
+                "//example.com/image.png",
+                "ftp://example.com/image.png",
+                "file:///tmp/image.png",
+                "blob:https://example.com/id",
+                "relative.png",
+            ):
                 path = Path(directory) / "external.svg"
                 path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><image href="{reference}"/></svg>')
                 with self.subTest(reference=reference), self.assertRaises(SystemExit):
+                    verify_accessibility(path)
+
+    def test_only_existing_local_svg_references_are_allowed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            valid = Path(directory) / "valid.svg"
+            valid.write_text('<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><defs><path id="shape"/></defs><use href="#shape" fill="url(#shape)"/></svg>')
+            verify_accessibility(valid)
+            for content in (
+                '<image href="#missing"/>',
+                '<path fill="url(https://example.com/fill.svg)"/>',
+                '<foreignObject/>',
+            ):
+                path = Path(directory) / "unsafe.svg"
+                path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc>{content}</svg>')
+                with self.subTest(content=content), self.assertRaises(SystemExit):
                     verify_accessibility(path)
 
     def test_empty_accessible_text_is_rejected(self):

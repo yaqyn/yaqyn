@@ -46,18 +46,32 @@ def card(slug, name, description, background, edge, art):
 def verify_accessibility(path):
     root = ET.parse(path).getroot()
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
-    ids = [element.get("id") for element in root.iter() if element.get("id")]
+    ids = {element.get("id") for element in root.iter() if element.get("id")}
     unsafe = False
+
+    def is_local_fragment(value):
+        reference = value.strip().strip("'\"")
+        return len(reference) > 1 and reference.startswith("#") and reference[1:] in ids
+
     for element in root.iter():
-        if element.tag.rsplit("}", 1)[-1] == "script" or any(
-            name.lower().startswith("on") for name in element.attrib
+        tag = element.tag.rsplit("}", 1)[-1].lower()
+        if tag in {"script", "style", "foreignobject"} or any(
+            name.lower().startswith("on") or name.lower() == "style"
+            for name in element.attrib
         ):
             unsafe = True
         for name, value in element.attrib.items():
-            if name.rsplit("}", 1)[-1].lower() == "href" and value.strip().lower().startswith(
-                ("http:", "https:", "data:", "javascript:", "//")
-            ):
+            attribute = name.rsplit("}", 1)[-1].lower()
+            reference = value.strip()
+            if attribute in {"href", "src"} and not is_local_fragment(reference):
                 unsafe = True
+            if "url(" in reference.lower():
+                if not (
+                    reference.lower().startswith("url(")
+                    and reference.endswith(")")
+                    and is_local_fragment(reference[4:-1])
+                ):
+                    unsafe = True
     if (
         root.get("role") != "img"
         or root.get("aria-labelledby") != "title desc"
@@ -67,11 +81,11 @@ def verify_accessibility(path):
         or children.get("desc") is None
         or children["desc"].get("id") != "desc"
         or not "".join(children["desc"].itertext()).strip()
-        or len(ids) != len(set(ids))
+        or len(ids) != len([element.get("id") for element in root.iter() if element.get("id")])
         or unsafe
     ):
         raise SystemExit(
-            "Project card lacks accessible title/description: "
+            "Project card is inaccessible or unsafe: "
             f"{display_path(path)}"
         )
 
