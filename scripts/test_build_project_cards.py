@@ -14,6 +14,14 @@ class CardAccessibilityTests(unittest.TestCase):
                 with self.subTest(active=active), self.assertRaises(SystemExit):
                     verify_accessibility(path)
 
+    def test_external_svg_references_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            for reference in ("https://example.com/image.png", "data:image/png;base64,AAAA", "javascript:alert(1)", "//example.com/image.png"):
+                path = Path(directory) / "external.svg"
+                path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><image href="{reference}"/></svg>')
+                with self.subTest(reference=reference), self.assertRaises(SystemExit):
+                    verify_accessibility(path)
+
     def test_empty_accessible_text_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             for empty in ("title", "desc"):

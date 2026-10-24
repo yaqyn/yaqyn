@@ -47,11 +47,17 @@ def verify_accessibility(path):
     root = ET.parse(path).getroot()
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
     ids = [element.get("id") for element in root.iter() if element.get("id")]
-    unsafe = any(
-        element.tag.rsplit("}", 1)[-1] == "script"
-        or any(name.lower().startswith("on") for name in element.attrib)
-        for element in root.iter()
-    )
+    unsafe = False
+    for element in root.iter():
+        if element.tag.rsplit("}", 1)[-1] == "script" or any(
+            name.lower().startswith("on") for name in element.attrib
+        ):
+            unsafe = True
+        for name, value in element.attrib.items():
+            if name.rsplit("}", 1)[-1].lower() == "href" and value.strip().lower().startswith(
+                ("http:", "https:", "data:", "javascript:", "//")
+            ):
+                unsafe = True
     if (
         root.get("role") != "img"
         or root.get("aria-labelledby") != "title desc"
