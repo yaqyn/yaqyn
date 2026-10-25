@@ -285,11 +285,31 @@ def modern():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
+    parser.add_argument("--only", help="Build or verify one generated project card by slug")
     args = parser.parse_args()
     CHECK = args.check
-    for draw in [modern, counter, leafmark, waymark, readlane, threadline, portlight, workbench, cinesearch, sitelens, orbit, textscope, folio]:
+    drawings = {
+        "modern": modern,
+        "omarchy-counter": counter,
+        "leafmark-notebook": leafmark,
+        "waymark-link-shortener": waymark,
+        "readlane-feed-reader": readlane,
+        "threadline-social-api": threadline,
+        "portlight-http-server": portlight,
+        "workbench-ai-agent": workbench,
+        "cinesearch-rag-engine": cinesearch,
+        "sitelens-web-crawler": sitelens,
+        "orbit-asteroids-game": orbit,
+        "textscope-text-analyzer": textscope,
+        "folio-static-site": folio,
+    }
+    if args.only:
+        if args.only not in drawings:
+            parser.error("--only must name a generated project card slug")
+        drawings = {args.only: drawings[args.only]}
+    for draw in drawings.values():
         draw()
-    if CHECK:
+    if CHECK and not args.only:
         approved_manual = {"clibble-terminal-rpg.svg", "hyperquote.svg", "qvos.svg"}
         unexpected = {path.name for path in OUT.glob("*.svg")} - GENERATED - approved_manual
         if unexpected:
@@ -297,4 +317,4 @@ if __name__ == "__main__":
         for path in OUT.glob("*.svg"):
             verify_accessibility(path)
     action = "Verified" if CHECK else "Built"
-    print(f"{action} 13 project-specific SVG cards; approved Clibble card preserved.")
+    print(f"{action} {len(drawings)} project-specific SVG card(s); approved Clibble card preserved.")

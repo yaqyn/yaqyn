@@ -1,11 +1,28 @@
 import tempfile
 import unittest
+import subprocess
+import sys
 from pathlib import Path
 
 from build_project_cards import verify_accessibility
 
 
 class CardAccessibilityTests(unittest.TestCase):
+    def test_one_card_can_be_checked_by_slug(self):
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(Path(__file__).with_name("build_project_cards.py")),
+                "--check",
+                "--only",
+                "folio-static-site",
+            ],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Verified 1 project-specific SVG card", result.stdout)
+
     def test_active_svg_content_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             for active in ('<script>alert(1)</script>', '<g onclick="alert(1)"/>'):
