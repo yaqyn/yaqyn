@@ -8,6 +8,16 @@ from build_project_cards import verify_accessibility
 
 
 class CardAccessibilityTests(unittest.TestCase):
+    def test_generated_card_slugs_can_be_listed(self):
+        result = subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("build_project_cards.py")), "--list"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("folio-static-site\n", result.stdout)
+        self.assertIn("omarchy-counter\n", result.stdout)
+
     def test_one_card_can_be_checked_by_slug(self):
         result = subprocess.run(
             [

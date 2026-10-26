@@ -286,6 +286,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
     parser.add_argument("--only", help="Build or verify one generated project card by slug")
+    parser.add_argument("--list", action="store_true", help="List generated project-card slugs and exit")
     args = parser.parse_args()
     CHECK = args.check
     drawings = {
@@ -303,6 +304,9 @@ if __name__ == "__main__":
         "textscope-text-analyzer": textscope,
         "folio-static-site": folio,
     }
+    if args.list:
+        print("\n".join(drawings))
+        raise SystemExit(0)
     if args.only:
         if args.only not in drawings:
             parser.error("--only must name a generated project card slug")
