@@ -1,18 +1,26 @@
-![Abdulrahman M. Yaqyn — Backend systems, AI applications, and Linux](assets/banner.svg)
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/masthead-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/masthead-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/masthead-dark.svg">
+  <img src="assets/profile/masthead-light.svg" width="1120" alt="yaqyn — Abdulrahman M. Yaqyn. Software shaped around real work. Backend systems, AI applications, and Linux.">
+</picture>
 
 # Abdulrahman M. Yaqyn — Software and systems
 
+Business operations, AI applications, and Linux tools. **An accounting background shapes the work: follow the records, understand the handoffs, and make the behavior clear.** Based in 6th of October City, Egypt.
+
 <p align="left">
-  <a href="mailto:contact@yaqyn.dev">Contact</a> &nbsp;·&nbsp;
-  <a href="https://yaqyn.github.io/folio-static-site/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://github.com/yaqyn/HyperQuote">HyperQuote</a> &nbsp;·&nbsp;
-  <a href="https://github.com/yaqyn/qvOS">qvOS</a> &nbsp;·&nbsp;
-  <a href="https://www.boot.dev/u/yaqyn">Boot.dev</a>
+  <a href="https://yaqyn.github.io/folio-static-site/"><strong>Explore the portfolio ↗</strong></a> &nbsp;·&nbsp;
+  <a href="mailto:contact@yaqyn.dev">Get in touch</a>
 </p>
 
-## <img src="assets/icons/overview.svg" width="24" height="24" alt=""> Backend systems, AI applications, and Linux
+<p align="left">
+  <sub><a href="#career-projects">Career projects</a> &nbsp; / &nbsp; <a href="#personal-projects">Personal projects</a> &nbsp; / &nbsp; <a href="#learning-journey">Learning journey</a> &nbsp; / &nbsp; <a href="#skills-and-tools">Skills &amp; tools</a> &nbsp; / &nbsp; <a href="#learning-and-credentials">Credentials</a></sub>
+</p>
 
-**An accounting background shapes how I build software: follow the records, understand the handoffs, and make the behavior clear.** The projects here span business operations, AI applications, and Linux tools. The work is based in **6th of October City, Egypt**.
+---
+
+<a name="career-projects"></a>
 
 ## <img src="assets/icons/career.svg" width="24" height="24" alt=""> Career projects
 
@@ -42,7 +50,7 @@ The public showcase uses fictional data and shared demonstration accounts.
 [Explore the project](https://github.com/yaqyn/HyperQuote) · [Visit the website](https://www.hyperquote.net) · [Customer portal](https://portal.hyperquote.net)
 
 <details>
-<summary><strong>Modern — Website details and cover</strong></summary>
+<summary><strong>Modern · Bilingual construction website</strong></summary>
 
 <p align="left">
   <a href="assets/modern.webp"><img src="assets/modern-story.gif" width="100%" alt="Modern Construction for Contracting — green brand mark and descending architectural forms"></a>
@@ -57,6 +65,10 @@ The public repository presents the website and selected interface captures; appl
 [Explore the showcase](https://github.com/yaqyn/Modern) · [Visit the website](https://www.moderngroupco.com/)
 
 </details>
+
+---
+
+<a name="personal-projects"></a>
 
 ## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Personal projects
 
@@ -84,7 +96,7 @@ Public ISO downloads are not available yet; the repository documents source buil
 Package foundation: [Omarchy](https://github.com/basecamp/omarchy)'s signed Stable repositories, distributed through Cloudflare, support the focus on stability.
 
 <details>
-<summary><strong>Counter — Plugin details and cover</strong></summary>
+<summary><strong>Counter · Native desktop tally tool</strong></summary>
 
 <p align="left">
   <a href="https://github.com/yaqyn/omarchy-counter"><img src="assets/counter.svg" width="100%" alt="Counter — tally display connected to an F1 key"></a>
@@ -100,9 +112,31 @@ Built for Omarchy's native plugin system. The interface follows the desktop them
 
 </details>
 
+---
+
+<a name="learning-journey"></a>
+
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
 Tools, services, and games developed through Boot.dev coursework and extended through independent work. Each repository documents its origins, implementation, and run instructions.
+
+<p align="left">
+  <a href="https://github.com/yaqyn/leafmark-notebook"><img src="assets/projects/leafmark-notebook.svg" width="132" height="132" alt="Learning Journey Projects: Leafmark — Personal notebook"></a>
+  <a href="https://github.com/yaqyn/waymark-link-shortener"><img src="assets/projects/waymark-link-shortener.svg" width="132" height="132" alt="Learning Journey Projects: Waymark — Link shortener"></a>
+  <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
+  <a href="https://github.com/yaqyn/clibble-terminal-rpg"><img src="assets/projects/clibble-terminal-rpg.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Terminal RPG"></a>
+  <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
+  <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
+  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
+  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg?v=2" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
+  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg?v=2" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
+  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
+  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg?v=2" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
+  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
+</p>
+
+<details>
+<summary><strong>Project index · purpose and engineering focus</strong></summary>
 
 | Project | Engineering focus |
 | --- | --- |
@@ -119,6 +153,12 @@ Tools, services, and games developed through Boot.dev coursework and extended th
 | [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Text processing, vocabulary analysis, and exports |
 | [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Markdown parsing, HTML generation, and static-site publishing |
 
+</details>
+
+---
+
+<a name="skills-and-tools"></a>
+
 ## <img src="assets/icons/skills.svg" width="24" height="24" alt=""> Skills and tools
 
 | Area | Skills |
@@ -129,11 +169,34 @@ Tools, services, and games developed through Boot.dev coursework and extended th
 | **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
-### <img src="assets/icons/ai.svg" width="20" height="20" alt=""> AI in the development process
+### <img src="assets/icons/ai.svg" width="20" height="20" alt=""> Development process
 
 **Claude Code and Codex** support implementation, debugging, and code review. The process starts with clear requirements and continues through review, tests, and direct use. I remain responsible for the decisions and the resulting work.
 
+<details>
+<summary><strong>How the work moves from a requirement to a checked result</strong></summary>
+
+The same questions guide business software and personal tools: what needs to happen, which records change, and how can the result be checked?
+
+```mermaid
+flowchart TD
+    A[Understand the operation] --> B[Define records and handoffs]
+    B --> C[Build the smallest useful workflow]
+    C --> D[Review, test, and use it]
+    D --> E[Document behavior and limitations]
+    D --> B
+```
+
+This describes the development approach; each project's repository documents its own architecture and verification.
+
+</details>
+
+<a name="learning-and-credentials"></a>
+
 ## <img src="assets/icons/credentials.svg" width="24" height="24" alt=""> Learning and credentials
+
+<details>
+<summary><strong>Current study · backend, cloud, frontend, and AI engineering</strong></summary>
 
 Current study covers backend development through **Boot.dev and IBM**, **Go, JavaScript, and TypeScript**, and **AWS and cloud engineering**. Further coursework includes frontend development with **Scrimba**, full-stack development with **Meta and Scrimba**, and AI engineering with **IBM and Scrimba**.
 
@@ -141,8 +204,10 @@ Current study covers backend development through **Boot.dev and IBM**, **Go, Jav
   <img src="https://api.boot.dev/v1/users/public/98c3900b-cd60-4a32-b587-90ae00db0262/thumbnail" alt="Abdulrahman's Boot.dev learning progress">
 </a>
 
+</details>
+
 <details>
-<summary><strong>Professional certificates & AI training</strong></summary>
+<summary><strong>Professional certificates &amp; AI training</strong></summary>
 
 - **Microsoft AI for Developers Professional Certificate** — Microsoft
 - **Microsoft AI Business Professional Certificate** — Microsoft
@@ -161,27 +226,20 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 
 ---
 
-**Let’s talk about the work.** For roles or projects involving backend development, AI applications, or business workflow automation, reach me at **[contact@yaqyn.dev](mailto:contact@yaqyn.dev)**.
+<a name="contact"></a>
 
-## <img src="assets/icons/projects.svg" width="24" height="24" alt=""> Project gallery
+## Let’s talk about the work
 
-<details open>
-<summary><strong>Explore the learning journey projects</strong></summary>
+For roles or projects involving **backend development, AI applications, or business workflow automation**, reach me at [contact@yaqyn.dev](mailto:contact@yaqyn.dev). Include the problem or project you have in mind.
 
-<p align="left">
-  <a href="https://github.com/yaqyn/leafmark-notebook"><img src="assets/projects/leafmark-notebook.svg" width="132" height="132" alt="Learning Journey Projects: Leafmark — Personal notebook"></a>
-  <a href="https://github.com/yaqyn/waymark-link-shortener"><img src="assets/projects/waymark-link-shortener.svg" width="132" height="132" alt="Learning Journey Projects: Waymark — Link shortener"></a>
-  <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
-  <a href="https://github.com/yaqyn/clibble-terminal-rpg"><img src="assets/projects/clibble-terminal-rpg.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Terminal RPG"></a>
-  <a href="https://github.com/yaqyn/threadline-social-api"><img src="assets/projects/threadline-social-api.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Threadline — Social publishing API"></a>
-  <a href="https://github.com/yaqyn/portlight-http-server"><img src="assets/projects/portlight-http-server.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Portlight — HTTP server"></a>
-  <a href="https://github.com/yaqyn/workbench-ai-agent"><img src="assets/projects/workbench-ai-agent.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Workbench — AI coding agent"></a>
-  <a href="https://github.com/yaqyn/cinesearch-rag-engine"><img src="assets/projects/cinesearch-rag-engine.svg?v=2" width="132" height="132" alt="Learning Journey Projects: CineSearch — Movie RAG engine"></a>
-  <a href="https://github.com/yaqyn/sitelens-web-crawler"><img src="assets/projects/sitelens-web-crawler.svg?v=2" width="132" height="132" alt="Learning Journey Projects: SiteLens — Web crawler"></a>
-  <a href="https://github.com/yaqyn/orbit-asteroids-game"><img src="assets/projects/orbit-asteroids-game.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Orbit — Asteroids game"></a>
-  <a href="https://github.com/yaqyn/textscope-text-analyzer"><img src="assets/projects/textscope-text-analyzer.svg?v=2" width="132" height="132" alt="Learning Journey Projects: TextScope — Text analyzer"></a>
-  <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
-</p>
+[Explore the portfolio ↗](https://yaqyn.github.io/folio-static-site/) · [View repositories](https://github.com/yaqyn?tab=repositories) · [Follow the learning journey](https://www.boot.dev/u/yaqyn)
+
+<details>
+<summary>Original profile artwork</summary>
+
+The original connected-workflows banner remains part of this profile's artwork.
+
+![Abdulrahman M. Yaqyn — Backend systems, AI applications, and Linux](assets/banner.svg)
 
 </details>
 
