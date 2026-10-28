@@ -104,20 +104,20 @@ Built for Omarchy's native plugin system. The interface follows the desktop them
 
 Tools, services, and games developed through Boot.dev coursework and extended through independent work. Each repository documents its origins, implementation, and run instructions.
 
-| Project | Engineering focus |
-| --- | --- |
-| [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Private plain-text notes, SQLite or Turso, revocable sessions, and exportable drafts |
-| [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Editable short links, persistent click totals, structured logs, and optional tracing |
-| [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | RSS and Atom collection, PostgreSQL, keyboard reading, and persistent retries |
-| [Clibble — Terminal RPG](https://github.com/yaqyn/clibble-terminal-rpg) | Animated forest, original wildlings, persistent catch limits, and an optional web journal |
-| [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | Go and PostgreSQL APIs, authentication, renewable sessions, and membership webhooks |
-| [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | Docker builds, health probes, structured logs, and graceful shutdown in Go |
-| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Workspace-scoped coding agent and tool boundaries |
-| [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | BM25, semantic retrieval, hybrid ranking, and grounded generation |
-| [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | HTTP, asynchronous crawling, and structured reports |
-| [Orbit — Asteroids Game](https://github.com/yaqyn/orbit-asteroids-game) | Game logic and object-oriented programming |
-| [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Text processing, vocabulary analysis, and exports |
-| [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Markdown parsing, HTML generation, and static-site publishing |
+| Project | Primary tools | Engineering focus |
+| --- | --- | --- |
+| [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Go · SQLite · JavaScript | Private plain-text notes, revocable sessions, and exportable drafts |
+| [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Go · bbolt · OpenTelemetry | Editable short links, persistent click totals, structured logs, and optional tracing |
+| [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | Go · PostgreSQL · JavaScript | RSS and Atom collection, keyboard reading, and persistent retries |
+| [Clibble — Terminal RPG](https://github.com/yaqyn/clibble-terminal-rpg) | Go · Bubble Tea · JavaScript | Animated forest, original wildlings, persistent catch limits, and an optional web journal |
+| [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | Go · PostgreSQL · sqlc | APIs, authentication, renewable sessions, and membership webhooks |
+| [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | Go · Docker | Container builds, health probes, structured logs, and graceful shutdown |
+| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Python · OpenRouter · Textual | Workspace-scoped coding agent and tool boundaries |
+| [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | Python · BM25 · embeddings | Semantic retrieval, hybrid ranking, and grounded generation |
+| [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | Python · aiohttp · Textual | HTTP policy, asynchronous crawling, and structured reports |
+| [Orbit — Asteroids Game](https://github.com/yaqyn/orbit-asteroids-game) | Python · Pygame | Game logic, progression systems, and object-oriented programming |
+| [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | Python · Unicode · CSV/JSON | Text processing, vocabulary analysis, and exports |
+| [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Python · HTML · CSS | Markdown parsing, HTML generation, and static-site publishing |
 
 ## <img src="assets/icons/skills.svg" width="24" height="24" alt=""> Skills and tools
 
