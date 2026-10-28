@@ -127,6 +127,7 @@ Tools, services, and games developed through Boot.dev coursework and extended th
 | **Backend & data** | APIs and HTTP, database development, PostgreSQL, Supabase, Pandas, Polars, data analysis and visualization |
 | **AI & automation** | LLM applications, RAG, AI agents, agentic workflows, prompt engineering, web scraping, workflow automation |
 | **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
+| **Quality & reliability** | Unit and integration testing, race detection, linting, reproducible builds, CI, and failure-oriented verification |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
 ### <img src="assets/icons/ai.svg" width="20" height="20" alt=""> AI in the development process
