@@ -129,6 +129,7 @@ Tools, services, and games developed through Boot.dev coursework and extended th
 | **Development** | Git, Linux, Docker, Docker Compose, command-line tools, debugging, AI-assisted software development |
 | **Quality & reliability** | Unit and integration testing, race detection, linting, reproducible builds, CI, and failure-oriented verification |
 | **Security & operations** | Authentication and session security, SSRF boundaries, health checks, structured logging, graceful shutdown, and container hardening |
+| **Accessibility & interfaces** | Keyboard-first flows, screen-reader-friendly plain modes, responsive terminal layouts, reduced motion, and clear error recovery |
 | **Business & design** | AI strategy and adoption, Adobe graphic design, Google Workspace |
 
 ### <img src="assets/icons/ai.svg" width="20" height="20" alt=""> AI in the development process
