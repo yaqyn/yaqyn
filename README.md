@@ -104,20 +104,20 @@ Built for Omarchy's native plugin system. The interface follows the desktop them
 
 Tools, services, and games developed through Boot.dev coursework and extended through independent work. Each repository documents its origins, implementation, and run instructions.
 
-| Project | Interface | Primary tools | Engineering focus |
-| --- | --- | --- | --- |
-| [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Web app | Go · SQLite · JavaScript | Private plain-text notes, revocable sessions, and exportable drafts |
-| [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Web app · HTTP API | Go · bbolt · OpenTelemetry | Editable short links, persistent click totals, structured logs, and optional tracing |
-| [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | Web app | Go · PostgreSQL · JavaScript | RSS and Atom collection, keyboard reading, and persistent retries |
-| [Clibble — Terminal RPG](https://github.com/yaqyn/clibble-terminal-rpg) | Terminal UI · Web journal | Go · Bubble Tea · JavaScript | Animated forest, original wildlings, persistent catch limits, and an optional web journal |
-| [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | HTTP API | Go · PostgreSQL · sqlc | APIs, authentication, renewable sessions, and membership webhooks |
-| [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | HTTP server | Go · Docker | Container builds, health probes, structured logs, and graceful shutdown |
-| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Terminal UI | Python · OpenRouter · Textual | Workspace-scoped coding agent and tool boundaries |
-| [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | CLI | Python · BM25 · embeddings | Semantic retrieval, hybrid ranking, and grounded generation |
-| [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | Terminal UI · CLI | Python · aiohttp · Textual | HTTP policy, asynchronous crawling, and structured reports |
-| [Orbit — Asteroids Game](https://github.com/yaqyn/orbit-asteroids-game) | Desktop game | Python · Pygame | Game logic, progression systems, and object-oriented programming |
-| [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | CLI | Python · Unicode · CSV/JSON | Text processing, vocabulary analysis, and exports |
-| [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Static site · CLI | Python · HTML · CSS | Markdown parsing, HTML generation, and static-site publishing |
+| Project | Interface | Storage | Primary tools | Engineering focus |
+| --- | --- | --- | --- | --- |
+| [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Web app | SQLite / libSQL | Go · SQLite · JavaScript | Private plain-text notes, revocable sessions, and exportable drafts |
+| [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Web app · HTTP API | bbolt | Go · bbolt · OpenTelemetry | Editable short links, persistent click totals, structured logs, and optional tracing |
+| [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | Web app | PostgreSQL | Go · PostgreSQL · JavaScript | RSS and Atom collection, keyboard reading, and persistent retries |
+| [Clibble — Terminal RPG](https://github.com/yaqyn/clibble-terminal-rpg) | Terminal UI · Web journal | JSON file | Go · Bubble Tea · JavaScript | Animated forest, original wildlings, persistent catch limits, and an optional web journal |
+| [Threadline — Social Publishing API](https://github.com/yaqyn/threadline-social-api) | HTTP API | PostgreSQL | Go · PostgreSQL · sqlc | APIs, authentication, renewable sessions, and membership webhooks |
+| [Portlight — HTTP Server](https://github.com/yaqyn/portlight-http-server) | HTTP server | Stateless | Go · Docker | Container builds, health probes, structured logs, and graceful shutdown |
+| [Workbench — AI Coding Agent](https://github.com/yaqyn/workbench-ai-agent) | Terminal UI | Workspace files | Python · OpenRouter · Textual | Workspace-scoped coding agent and tool boundaries |
+| [CineSearch — Movie RAG Engine](https://github.com/yaqyn/cinesearch-rag-engine) | CLI | Local datasets & indexes | Python · BM25 · embeddings | Semantic retrieval, hybrid ranking, and grounded generation |
+| [SiteLens — Web Crawler](https://github.com/yaqyn/sitelens-web-crawler) | Terminal UI · CLI | JSON reports | Python · aiohttp · Textual | HTTP policy, asynchronous crawling, and structured reports |
+| [Orbit — Asteroids Game](https://github.com/yaqyn/orbit-asteroids-game) | Desktop game | Local score file | Python · Pygame | Game logic, progression systems, and object-oriented programming |
+| [TextScope — Text Analyzer](https://github.com/yaqyn/textscope-text-analyzer) | CLI | CSV / JSON exports | Python · Unicode · CSV/JSON | Text processing, vocabulary analysis, and exports |
+| [Folio — Personal Site & Generator](https://github.com/yaqyn/folio-static-site) | Static site · CLI | Generated HTML | Python · HTML · CSS | Markdown parsing, HTML generation, and static-site publishing |
 
 ## <img src="assets/icons/skills.svg" width="24" height="24" alt=""> Skills and tools
 
