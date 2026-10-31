@@ -1,4 +1,5 @@
 import tempfile
+import json
 import unittest
 import subprocess
 import sys
@@ -17,6 +18,17 @@ class CardAccessibilityTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("folio-static-site\n", result.stdout)
         self.assertIn("omarchy-counter\n", result.stdout)
+
+    def test_generated_card_slugs_can_be_listed_as_json(self):
+        result = subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("build_project_cards.py")), "--list", "--json"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        slugs = json.loads(result.stdout)
+        self.assertEqual(len(slugs), 13)
+        self.assertIn("cinesearch-rag-engine", slugs)
 
     def test_one_card_can_be_checked_by_slug(self):
         result = subprocess.run(

@@ -7,6 +7,7 @@ Source direction and visual ownership: assets/projects/DESIGN.md.
 from pathlib import Path
 from html import escape
 import argparse
+import json
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -287,6 +288,7 @@ if __name__ == "__main__":
     parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
     parser.add_argument("--only", action="append", help="Build or verify a generated project card by slug; repeatable")
     parser.add_argument("--list", action="store_true", help="List generated project-card slugs and exit")
+    parser.add_argument("--json", action="store_true", help="Emit --list output as JSON")
     args = parser.parse_args()
     CHECK = args.check
     drawings = {
@@ -305,8 +307,10 @@ if __name__ == "__main__":
         "folio-static-site": folio,
     }
     if args.list:
-        print("\n".join(drawings))
+        print(json.dumps(list(drawings), indent=2) if args.json else "\n".join(drawings))
         raise SystemExit(0)
+    if args.json:
+        parser.error("--json requires --list")
     if args.only:
         unknown = [slug for slug in args.only if slug not in drawings]
         if unknown:
