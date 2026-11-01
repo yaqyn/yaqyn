@@ -289,8 +289,12 @@ if __name__ == "__main__":
     parser.add_argument("--only", action="append", help="Build or verify a generated project card by slug; repeatable")
     parser.add_argument("--list", action="store_true", help="List generated project-card slugs and exit")
     parser.add_argument("--json", action="store_true", help="Emit --list output as JSON")
+    parser.add_argument("--output-dir", type=Path,
+                        help="Write or verify cards in an alternate directory")
     args = parser.parse_args()
     CHECK = args.check
+    if args.output_dir is not None:
+        OUT = args.output_dir.resolve()
     drawings = {
         "modern": modern,
         "omarchy-counter": counter,
@@ -316,6 +320,8 @@ if __name__ == "__main__":
         if unknown:
             parser.error("--only must name a generated project card slug")
         drawings = {slug: drawings[slug] for slug in dict.fromkeys(args.only)}
+    if not CHECK:
+        OUT.mkdir(parents=True, exist_ok=True)
     for draw in drawings.values():
         draw()
     if CHECK and not args.only:

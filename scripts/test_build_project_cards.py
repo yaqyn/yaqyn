@@ -54,6 +54,17 @@ class CardAccessibilityTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("Verified 2 project-specific SVG card", result.stdout)
 
+    def test_card_can_be_built_in_an_alternate_directory(self):
+        with tempfile.TemporaryDirectory() as directory:
+            result = subprocess.run(
+                [sys.executable, str(Path(__file__).with_name("build_project_cards.py")),
+                 "--only", "folio-static-site", "--output-dir", directory],
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue((Path(directory) / "folio-static-site.svg").is_file())
+
     def test_active_svg_content_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             for active in ('<script>alert(1)</script>', '<g onclick="alert(1)"/>'):
