@@ -93,7 +93,7 @@ class CardAccessibilityTests(unittest.TestCase):
     def test_only_existing_local_svg_references_are_allowed(self):
         with tempfile.TemporaryDirectory() as directory:
             valid = Path(directory) / "valid.svg"
-            valid.write_text('<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><defs><path id="shape"/></defs><use href="#shape" fill="url(#shape)"/></svg>')
+            valid.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><defs><path id="shape"/></defs><use href="#shape" fill="url(#shape)"/></svg>')
             verify_accessibility(valid)
             for content in (
                 '<image href="#missing"/>',
@@ -121,6 +121,18 @@ class CardAccessibilityTests(unittest.TestCase):
             path.write_text('<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><g id="desc"/></svg>')
             with self.assertRaises(SystemExit):
                 verify_accessibility(path)
+
+    def test_card_geometry_is_required(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "card.svg"
+            for geometry in (
+                'width="0" height="132" viewBox="0 0 132 132"',
+                'width="132" height="132" viewBox="0 0 64 64"',
+                '',
+            ):
+                path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" {geometry} role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc></svg>')
+                with self.subTest(geometry=geometry), self.assertRaises(SystemExit):
+                    verify_accessibility(path)
 
 
 if __name__ == "__main__":

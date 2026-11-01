@@ -49,6 +49,13 @@ def verify_accessibility(path):
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
     ids = {element.get("id") for element in root.iter() if element.get("id")}
     unsafe = False
+    try:
+        width = float(root.get("width", ""))
+        height = float(root.get("height", ""))
+        view_box = [float(value) for value in root.get("viewBox", "").split()]
+        valid_geometry = width > 0 and height > 0 and view_box == [0, 0, width, height]
+    except ValueError:
+        valid_geometry = False
 
     def is_local_fragment(value):
         reference = value.strip().strip("'\"")
@@ -75,6 +82,7 @@ def verify_accessibility(path):
                     unsafe = True
     if (
         root.get("role") != "img"
+        or not valid_geometry
         or root.get("aria-labelledby") != "title desc"
         or children.get("title") is None
         or children["title"].get("id") != "title"
