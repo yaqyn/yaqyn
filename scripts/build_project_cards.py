@@ -8,6 +8,8 @@ from pathlib import Path
 from html import escape
 import argparse
 import json
+import os
+import tempfile
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,7 +43,20 @@ def card(slug, name, description, background, edge, art):
         if not path.exists() or path.read_text(encoding="utf-8") != content:
             raise SystemExit(f"Generated card is out of date: {display_path(path)}")
         return
-    path.write_text(content, encoding="utf-8")
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=OUT, prefix=f".{slug}.", delete=False
+        ) as output:
+            temporary = output.name
+            output.write(content)
+            output.flush()
+            os.fsync(output.fileno())
+        os.replace(temporary, path)
+        temporary = None
+    finally:
+        if temporary is not None:
+            Path(temporary).unlink(missing_ok=True)
 
 
 def verify_accessibility(path):

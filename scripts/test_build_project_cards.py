@@ -3,12 +3,25 @@ import json
 import unittest
 import subprocess
 import sys
+from unittest.mock import patch
 from pathlib import Path
 
 from build_project_cards import verify_accessibility
 
 
 class CardAccessibilityTests(unittest.TestCase):
+    def test_failed_card_replace_preserves_existing_output(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "folio-static-site.svg"
+            path.write_text("approved")
+            with patch("build_project_cards.os.replace", side_effect=OSError("blocked")):
+                from build_project_cards import card
+                with patch("build_project_cards.OUT", Path(directory)):
+                    with self.assertRaises(OSError):
+                        card("folio-static-site", "Folio", "Description", "#000", "#fff", "")
+            self.assertEqual(path.read_text(), "approved")
+            self.assertEqual([item.name for item in Path(directory).iterdir()], ["folio-static-site.svg"])
+
     def test_generated_card_slugs_can_be_listed(self):
         result = subprocess.run(
             [sys.executable, str(Path(__file__).with_name("build_project_cards.py")), "--list"],
