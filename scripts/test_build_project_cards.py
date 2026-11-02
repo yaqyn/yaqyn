@@ -86,6 +86,14 @@ class CardAccessibilityTests(unittest.TestCase):
                 with self.subTest(active=active), self.assertRaises(SystemExit):
                     verify_accessibility(path)
 
+    def test_svg_animation_elements_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            for animation in ("animate", "animateMotion", "animateTransform", "set"):
+                path = Path(directory) / "animated.svg"
+                path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><{animation} attributeName="opacity"/></svg>')
+                with self.subTest(animation=animation), self.assertRaises(SystemExit):
+                    verify_accessibility(path)
+
     def test_external_svg_references_are_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             for reference in (

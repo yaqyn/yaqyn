@@ -78,7 +78,7 @@ def verify_accessibility(path):
 
     for element in root.iter():
         tag = element.tag.rsplit("}", 1)[-1].lower()
-        if tag in {"script", "style", "foreignobject"} or any(
+        if tag in {"script", "style", "foreignobject", "animate", "animatemotion", "animatetransform", "set"} or any(
             name.lower().startswith("on") or name.lower() == "style"
             for name in element.attrib
         ):
