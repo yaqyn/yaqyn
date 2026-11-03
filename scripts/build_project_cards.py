@@ -61,6 +61,7 @@ def card(slug, name, description, background, edge, art):
 
 def verify_accessibility(path):
     root = ET.parse(path).getroot()
+    valid_root = root.tag == "{http://www.w3.org/2000/svg}svg"
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
     ids = {element.get("id") for element in root.iter() if element.get("id")}
     unsafe = False
@@ -96,7 +97,8 @@ def verify_accessibility(path):
                 ):
                     unsafe = True
     if (
-        root.get("role") != "img"
+        not valid_root
+        or root.get("role") != "img"
         or not valid_geometry
         or root.get("aria-labelledby") != "title desc"
         or children.get("title") is None
