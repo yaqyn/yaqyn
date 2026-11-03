@@ -144,6 +144,14 @@ class CardAccessibilityTests(unittest.TestCase):
                 with self.subTest(empty=empty), self.assertRaises(SystemExit):
                     verify_accessibility(path)
 
+    def test_cards_require_one_direct_title_and_description(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "card.svg"
+            for duplicate in ("<title>Second</title>", "<desc>Second description</desc>"):
+                path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc>{duplicate}</svg>')
+                with self.subTest(duplicate=duplicate), self.assertRaises(SystemExit):
+                    verify_accessibility(path)
+
     def test_duplicate_svg_ids_are_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "card.svg"
