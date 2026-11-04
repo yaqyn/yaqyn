@@ -106,6 +106,7 @@ Tools, services, and games developed through Boot.dev coursework and extended th
 
 | Project | Interface | Storage | Primary tools | Engineering focus |
 | --- | --- | --- | --- | --- |
+| [Verdant Trials — Forest Maze Adventure](https://github.com/yaqyn/verdant-trials) | Desktop game | Session-only | Python · PySide6 · OpenGL | Lantern-lit exploration, fog memory, five chapters, and visual DFS/BFS |
 | [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Web app | SQLite / libSQL | Go · SQLite · JavaScript | Private plain-text notes, revocable sessions, and exportable drafts |
 | [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Web app · HTTP API | bbolt | Go · bbolt · OpenTelemetry | Editable short links, persistent click totals, structured logs, and optional tracing |
 | [Readlane — Feed Reader](https://github.com/yaqyn/readlane-feed-reader) | Web app | PostgreSQL | Go · PostgreSQL · JavaScript | RSS and Atom collection, keyboard reading, and persistent retries |
@@ -172,7 +173,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 <summary><strong>Explore the learning journey projects</strong></summary>
 
 <p align="left">
-  <a href="https://github.com/yaqyn/leafmark-notebook"><img src="assets/projects/leafmark-notebook.svg" width="132" height="132" alt="Learning Journey Projects: Leafmark — Personal notebook"></a>
+  <a href="https://github.com/yaqyn/verdant-trials"><img src="assets/projects/verdant-trials.svg" width="132" height="132" alt="Learning Journey Projects: Verdant Trials — Forest maze adventure"></a>
   <a href="https://github.com/yaqyn/waymark-link-shortener"><img src="assets/projects/waymark-link-shortener.svg" width="132" height="132" alt="Learning Journey Projects: Waymark — Link shortener"></a>
   <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
   <a href="https://github.com/yaqyn/clibble-terminal-rpg"><img src="assets/projects/clibble-terminal-rpg.svg" width="132" height="132" alt="Learning Journey Projects: Clibble — Terminal RPG"></a>

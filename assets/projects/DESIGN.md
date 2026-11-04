@@ -18,6 +18,7 @@ and behavior, rather than screenshots or additional product features.
 
 | Project | Reviewed source | Card direction |
 | --- | --- | --- |
+| Verdant Trials | Game README, cover and DESIGN.md | Gold wordmark, forest silhouettes, raised stone passages, green traveller and warm lantern facing a teal waygate. |
 | Modern | Public showcase README and cover | Green architectural silhouettes; career showcase with private application source. |
 | Counter | README, DESIGN.md and readme-assets/STYLE.md | Slate numeric display and pale-blue F1 keycap; documentation colors only. |
 | Leafmark | README and DESIGN.md | Blue notebook rail, folded writing sheet and serif title on a pale desk. |
@@ -45,7 +46,9 @@ From the profile repository root:
 python3 scripts/build_project_cards.py
 ```
 
-This standard-library script generates thirteen cards. Clibble remains
+This standard-library script generates fourteen cards. Verdant Trials was added
+on 2026-11-04. Leafmark stays in the learning table; its existing card is retained
+as source artwork and omitted from the gallery. Clibble remains
 an independently authored SVG. Every card is self-contained: no scripts, linked
 images, web fonts, filters, animation, or external network requests. System font
 families provide fallbacks without downloading a custom font.

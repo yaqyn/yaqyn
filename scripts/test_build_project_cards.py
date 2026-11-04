@@ -48,7 +48,8 @@ class CardAccessibilityTests(unittest.TestCase):
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         slugs = json.loads(result.stdout)
-        self.assertEqual(len(slugs), 13)
+        self.assertEqual(len(slugs), 14)
+        self.assertIn("verdant-trials", slugs)
         self.assertIn("cinesearch-rag-engine", slugs)
 
     def test_one_card_can_be_checked_by_slug(self):

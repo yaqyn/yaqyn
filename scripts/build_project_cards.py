@@ -122,6 +122,38 @@ def verify_accessibility(path):
         )
 
 
+def verdant_trials():
+    art = '''<path d="M3 106V43l8-12 6 13-5 58m104 4V42l8-12 6 12-4 66" fill="#193e2b" stroke="#416348" stroke-width="1.2"/>
+<g fill="#285337"><path d="M0 47 16 30l16 13-12 8-12 15ZM102 44l17-14 19 17-8 14-15-8Z"/><path d="m0 89 16-12 11 18-9 12H0Zm111-2 13-13 15 17-3 16h-26Z"/></g>
+<path d="m17 88 48-28 53 19-47 29Z" fill="#323e32" stroke="#687c60" stroke-width=".8"/>
+<g fill="none" stroke-linejoin="miter" stroke-linecap="square"><path d="m25 85 22-13 15 6 12-7m-38 25 15-9 18 7 19-11 16 6m-36-26 38 14-12 7" stroke="#14291f" stroke-width="7"/>
+<path d="m25 82 22-13 15 6 12-7m-38 25 15-9 18 7 19-11 16 6m-36-26 38 14-12 7" stroke="#839078" stroke-width="4.5"/>
+<path d="m25 80 22-13 15 6m-26 18 15-9 18 7m-1-31 38 14" stroke="#bdc2a6" stroke-width=".8"/>
+</g>
+<path d="m41 99 16-9 13 5 26-15" fill="none" stroke="#bcaa71" stroke-width="1.1"/>
+<g fill="#244c40" stroke="#70c5b0" stroke-width=".7"><ellipse cx="97" cy="68" rx="11" ry="5"/><path d="M89 69V57l8-9 9 9v12"/></g>
+<path d="m97 53 5 9-4 9-5-9Z" fill="#70eedc" stroke="#d9fff0" stroke-width=".8"/>
+<path d="m97 54 1 15m-4-7h6" stroke="#ebfff4" stroke-width=".6"/>
+<g fill="#d9c18b"><circle cx="19" cy="58" r=".8"/><circle cx="112" cy="65" r=".7"/><circle cx="78" cy="48" r=".7"/></g>
+<ellipse cx="31" cy="111" rx="12" ry="3" fill="#0d2119"/>
+<g fill="#493a29"><path d="M24 105h5v8h-5Zm10-1h5v8h-5Z"/></g>
+<path d="M25 89q7-5 13 0l4 17-13 4-8-9Z" fill="#3b7967" stroke="#b9ac72" stroke-width=".8"/>
+<circle cx="31" cy="86" r="4.4" fill="#d7b68b"/>
+<path d="M27 85q0-7 6-5l4 5-6-1-4 3Z" fill="#514031"/>
+<path d="m25 92 11 9" stroke="#bf9b65" stroke-width="1.6"/>
+<rect x="33" y="99" width="6" height="5" rx="1" fill="#92704a" stroke="#c0a174" stroke-width=".5"/>
+<path d="m39 96 5 5m-1-2v7" fill="none" stroke="#d7b68b" stroke-width="2"/>
+<circle cx="44" cy="105" r="5" fill="#6f6538"/>
+<rect x="41.5" y="101" width="5" height="7" rx="1" fill="#ffe4a5" stroke="#b48d4d" stroke-width=".8"/>
+<path d="M43 103v3m2-3v3" stroke="#fff6d1" stroke-width=".6"/>'''
+    art += text(66,22,'VERDANT',14,'#e4cd92','Georgia,serif','text-anchor="middle" font-weight="700" letter-spacing=".5"')
+    art += text(66,37,'TRIALS',12,'#e4cd92','Georgia,serif','text-anchor="middle" font-weight="700" letter-spacing="1.8"')
+    art += text(66,123,'Lantern-lit labyrinths',6.8,'#b9c69c',extra='text-anchor="middle"')
+    card('verdant-trials','Verdant Trials — Forest maze adventure',
+         'An emerald traveller carries a warm lantern through miniature stone passages toward a teal crystal beacon, framed by the game’s forest and gold wordmark.',
+         '#10271f','#54705b',art)
+
+
 def readlane():
     violet, ivory = "#AEA5FF", "#F0EFFA"
     art = '''<g fill="none" stroke="#302B4D" stroke-width="1"><path d="M0 78 66 44l66 34-66 34ZM0 91l66-34 66 34-66 34"/></g>
@@ -327,6 +359,7 @@ if __name__ == "__main__":
     if args.output_dir is not None:
         OUT = args.output_dir.resolve()
     drawings = {
+        "verdant-trials": verdant_trials,
         "modern": modern,
         "omarchy-counter": counter,
         "leafmark-notebook": leafmark,
