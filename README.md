@@ -4,7 +4,7 @@
 
 <p align="left">
   <a href="mailto:contact@yaqyn.dev">Contact</a> &nbsp;·&nbsp;
-  <a href="https://yaqyn.github.io/folio-static-site/">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://yaqyn.dev/">Portfolio</a> &nbsp;·&nbsp;
   <a href="https://github.com/yaqyn/HyperQuote">HyperQuote</a> &nbsp;·&nbsp;
   <a href="https://github.com/yaqyn/qvOS">qvOS</a> &nbsp;·&nbsp;
   <a href="https://www.boot.dev/u/yaqyn">Boot.dev</a>
