@@ -60,6 +60,9 @@ def card(slug, name, description, background, edge, art):
 
 
 def verify_accessibility(path):
+    source = path.read_text(encoding="utf-8")
+    if "<!doctype" in source.casefold() or "<!entity" in source.casefold():
+        raise SystemExit(f"Project card contains a document type declaration: {display_path(path)}")
     root = ET.parse(path).getroot()
     valid_root = root.tag == "{http://www.w3.org/2000/svg}svg"
     direct_tags = [element.tag.rsplit("}", 1)[-1] for element in root]

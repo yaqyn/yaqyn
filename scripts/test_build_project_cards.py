@@ -127,6 +127,13 @@ class CardAccessibilityTests(unittest.TestCase):
                 with self.subTest(reference=reference), self.assertRaises(SystemExit):
                     verify_accessibility(path)
 
+    def test_document_type_declarations_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "declared.svg"
+            path.write_text('<!DOCTYPE svg><svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc></svg>')
+            with self.assertRaises(SystemExit):
+                verify_accessibility(path)
+
     def test_only_existing_local_svg_references_are_allowed(self):
         with tempfile.TemporaryDirectory() as directory:
             valid = Path(directory) / "valid.svg"
