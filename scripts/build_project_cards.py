@@ -316,7 +316,7 @@ if __name__ == "__main__":
     parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
     parser.add_argument("--only", action="append", help="Build or verify a generated project card by slug; repeatable")
     parser.add_argument("--list", action="store_true", help="List generated project-card slugs and exit")
-    parser.add_argument("--json", action="store_true", help="Emit --list output as JSON")
+    parser.add_argument("--json", action="store_true", help="Emit --list or --check output as JSON")
     parser.add_argument("--output-dir", type=Path,
                         help="Write or verify cards in an alternate directory")
     args = parser.parse_args()
@@ -341,8 +341,8 @@ if __name__ == "__main__":
     if args.list:
         print(json.dumps(list(drawings), indent=2) if args.json else "\n".join(drawings))
         raise SystemExit(0)
-    if args.json:
-        parser.error("--json requires --list")
+    if args.json and not args.check:
+        parser.error("--json requires --list or --check")
     if args.only:
         unknown = [slug for slug in args.only if slug not in drawings]
         if unknown:
@@ -360,4 +360,7 @@ if __name__ == "__main__":
         for path in OUT.glob("*.svg"):
             verify_accessibility(path)
     action = "Verified" if CHECK else "Built"
-    print(f"{action} {len(drawings)} project-specific SVG card(s); approved Clibble card preserved.")
+    if args.json:
+        print(json.dumps({"action": action.lower(), "cards": list(drawings), "count": len(drawings)}, indent=2))
+    else:
+        print(f"{action} {len(drawings)} project-specific SVG card(s); approved Clibble card preserved.")

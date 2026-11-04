@@ -66,6 +66,14 @@ class CardAccessibilityTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("Verified 1 project-specific SVG card", result.stdout)
 
+    def test_card_checks_can_report_json(self):
+        result = subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("build_project_cards.py")), "--check", "--only", "folio-static-site", "--json"],
+            capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(result.stdout), {"action": "verified", "cards": ["folio-static-site"], "count": 1})
+
     def test_multiple_cards_can_be_checked_by_slug(self):
         result = subprocess.run(
             [sys.executable, str(Path(__file__).with_name("build_project_cards.py")), "--check", "--only", "folio-static-site", "--only", "orbit-asteroids-game"],
