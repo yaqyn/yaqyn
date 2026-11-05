@@ -18,6 +18,7 @@ and behavior, rather than screenshots or additional product features.
 
 | Project | Reviewed source | Card direction |
 | --- | --- | --- |
+| Little Lemon Database | Database README and restored cover | Lossless WebP derived from the existing forest-green cover, lemon-on-plate illustration, white title and padded Meta badge; no new SVG. |
 | Verdant Trials | Game README, cover and DESIGN.md | Gold wordmark, forest silhouettes, raised stone passages, green traveller and warm lantern facing a teal waygate. |
 | Modern | Public showcase README and cover | Green architectural silhouettes; career showcase with private application source. |
 | Counter | README, DESIGN.md and readme-assets/STYLE.md | Slate numeric display and pale-blue F1 keycap; documentation colors only. |
@@ -63,3 +64,7 @@ Review at 132px before publishing; enlarged previews can conceal cramped text.
 Keep the SVGs as vector assets. Preserve the existing HyperQuote/qvOS animated
 covers and unrelated section icons. The older wide SVG assets for those projects
 are not used by the current Learning Journey gallery.
+
+## Little Lemon Database raster card
+
+Added on 2026-11-05 from the restored `Little-Lemon-Database/readme-assets/cover.svg`, rendered before cropping and composition. The 132 × 132 lossless WebP reuses the lemon illustration and Meta badge, with readable project text. It is a raster exception to the SVG card generator and is maintained as `little-lemon-database.webp`; running that generator preserves it. Meta identifies the project’s curriculum context, without implying endorsement.

@@ -102,10 +102,11 @@ Built for Omarchy's native plugin system. The interface follows the desktop them
 
 ## <img src="assets/icons/learning.svg" width="24" height="24" alt=""> Learning journey
 
-Tools, services, and games developed through Boot.dev coursework and extended through independent work. Each repository documents its origins, implementation, and run instructions.
+Tools, services, games, and database projects developed through Boot.dev and Meta coursework, with independent extensions. Each repository documents its origins, implementation, and run instructions.
 
 | Project | Interface | Storage | Primary tools | Engineering focus |
 | --- | --- | --- | --- | --- |
+| [Little Lemon — Database](https://github.com/yaqyn/little-lemon-database) | Jupyter notebook · Python CLI | MySQL | Python · SQL · MySQL Connector | Workbook-backed schema, transaction-safe booking procedures, and verified source-data reconciliation |
 | [Verdant Trials — Forest Maze Adventure](https://github.com/yaqyn/verdant-trials) | Desktop game | Session-only | Python · PySide6 · OpenGL | Lantern-lit exploration, fog memory, five chapters, and visual DFS/BFS |
 | [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Web app | SQLite / libSQL | Go · SQLite · JavaScript | Private plain-text notes, revocable sessions, and exportable drafts |
 | [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Web app · HTTP API | bbolt | Go · bbolt · OpenTelemetry | Editable short links, persistent click totals, structured logs, and optional tracing |
@@ -173,6 +174,7 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
 <summary><strong>Explore the learning journey projects</strong></summary>
 
 <p align="left">
+  <a href="https://github.com/yaqyn/little-lemon-database"><img src="assets/projects/little-lemon-database.webp" width="132" height="132" alt="Learning Journey Projects: Little Lemon — Database"></a>
   <a href="https://github.com/yaqyn/verdant-trials"><img src="assets/projects/verdant-trials.svg" width="132" height="132" alt="Learning Journey Projects: Verdant Trials — Forest maze adventure"></a>
   <a href="https://github.com/yaqyn/waymark-link-shortener"><img src="assets/projects/waymark-link-shortener.svg" width="132" height="132" alt="Learning Journey Projects: Waymark — Link shortener"></a>
   <a href="https://github.com/yaqyn/readlane-feed-reader"><img src="assets/projects/readlane-feed-reader.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Readlane — Feed reader"></a>
