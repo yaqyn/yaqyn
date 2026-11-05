@@ -7,6 +7,7 @@ Source direction and visual ownership: assets/projects/DESIGN.md.
 from pathlib import Path
 from html import escape
 import argparse
+import hashlib
 import json
 import os
 import tempfile
@@ -351,6 +352,7 @@ if __name__ == "__main__":
     parser.add_argument("--check", action="store_true", help="Verify generated cards without rewriting them")
     parser.add_argument("--only", action="append", help="Build or verify a generated project card by slug; repeatable")
     parser.add_argument("--list", action="store_true", help="List generated project-card slugs and exit")
+    parser.add_argument("--manifest", action="store_true", help="Report generated card paths and SHA-256 digests as JSON")
     parser.add_argument("--json", action="store_true", help="Emit --list or --check output as JSON")
     parser.add_argument("--output-dir", type=Path,
                         help="Write or verify cards in an alternate directory")
@@ -374,6 +376,17 @@ if __name__ == "__main__":
         "textscope-text-analyzer": textscope,
         "folio-static-site": folio,
     }
+    if args.manifest:
+        if args.list or args.check or args.only:
+            parser.error("--manifest cannot be combined with --list, --check, or --only")
+        manifest = []
+        for slug in drawings:
+            path = OUT / f"{slug}.svg"
+            if not path.is_file():
+                raise SystemExit(f"Generated card is missing: {display_path(path)}")
+            manifest.append({"slug": slug, "path": str(display_path(path)), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
+        print(json.dumps(manifest, indent=2))
+        raise SystemExit(0)
     if args.list:
         print(json.dumps(list(drawings), indent=2) if args.json else "\n".join(drawings))
         raise SystemExit(0)

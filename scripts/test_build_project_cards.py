@@ -52,6 +52,18 @@ class CardAccessibilityTests(unittest.TestCase):
         self.assertIn("verdant-trials", slugs)
         self.assertIn("cinesearch-rag-engine", slugs)
 
+    def test_generated_cards_have_a_hash_manifest(self):
+        result = subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("build_project_cards.py")), "--manifest"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        manifest = json.loads(result.stdout)
+        self.assertEqual(len(manifest), 14)
+        self.assertTrue(all(len(row["sha256"]) == 64 for row in manifest))
+        self.assertEqual(manifest[0]["slug"], "verdant-trials")
+
     def test_one_card_can_be_checked_by_slug(self):
         result = subprocess.run(
             [
