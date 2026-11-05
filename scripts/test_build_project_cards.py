@@ -10,6 +10,13 @@ from build_project_cards import verify_accessibility
 
 
 class CardAccessibilityTests(unittest.TestCase):
+    def test_nested_accessibility_names_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "card.svg"
+            path.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" role="img" aria-labelledby="title desc"><title id="title">Card</title><desc id="desc">Description</desc><g><title>Unexpected name</title></g></svg>')
+            with self.assertRaises(SystemExit):
+                verify_accessibility(path)
+
     def test_root_must_be_a_namespaced_svg_element(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "card.svg"

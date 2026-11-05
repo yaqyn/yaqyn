@@ -67,6 +67,7 @@ def verify_accessibility(path):
     root = ET.parse(path).getroot()
     valid_root = root.tag == "{http://www.w3.org/2000/svg}svg"
     direct_tags = [element.tag.rsplit("}", 1)[-1] for element in root]
+    all_tags = [element.tag.rsplit("}", 1)[-1] for element in root.iter()]
     children = {element.tag.rsplit("}", 1)[-1]: element for element in root}
     ids = {element.get("id") for element in root.iter() if element.get("id")}
     unsafe = False
@@ -108,10 +109,12 @@ def verify_accessibility(path):
         or root.get("aria-labelledby") != "title desc"
         or children.get("title") is None
         or direct_tags.count("title") != 1
+        or all_tags.count("title") != 1
         or children["title"].get("id") != "title"
         or not "".join(children["title"].itertext()).strip()
         or children.get("desc") is None
         or direct_tags.count("desc") != 1
+        or all_tags.count("desc") != 1
         or children["desc"].get("id") != "desc"
         or not "".join(children["desc"].itertext()).strip()
         or len(ids) != len([element.get("id") for element in root.iter() if element.get("id")])
