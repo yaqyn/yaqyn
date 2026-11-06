@@ -193,6 +193,8 @@ Four-year program · Final-year grade: **Excellent (امتياز)**
   <a href="https://github.com/yaqyn/folio-static-site"><img src="assets/projects/folio-static-site.svg?v=2" width="132" height="132" alt="Learning Journey Projects: Folio — Site & generator"></a>
 </p>
 
+More completed coursework: [Global Super Store data modeling](https://github.com/yaqyn/global-super-store-data-modeling) · [Little Lemon Django capstone](https://github.com/yaqyn/little-lemon-django-capstone) · [Little Lemon sales report](https://github.com/yaqyn/little-lemon-sales-report) · [IBM emotion detector](https://github.com/yaqyn/oaqjp-final-project-emb-ai)
+
 </details>
 
 > Trace the whole workflow, from the first record to the final handoff.
