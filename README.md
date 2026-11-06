@@ -106,7 +106,11 @@ Tools, services, games, and database projects developed through Boot.dev and Met
 
 | Project | Interface | Storage | Primary tools | Engineering focus |
 | --- | --- | --- | --- | --- |
+| [Global Super Store — Data Modeling](https://github.com/yaqyn/global-super-store-data-modeling) | Offline dashboard · Python CLI | MySQL · CSV exports | Python · SQL · MySQL · Tableau-ready data | Lossless retail ETL, normalized and dimensional models, reconciled facts, and reproducible submission packages |
 | [Little Lemon — Database](https://github.com/yaqyn/little-lemon-database) | Jupyter notebook · Python CLI | MySQL | Python · SQL · MySQL Connector | Workbook-backed schema, transaction-safe booking procedures, and verified source-data reconciliation |
+| [Little Lemon — Django Capstone](https://github.com/yaqyn/little-lemon-django-capstone) | Responsive website · REST API | MySQL | Python · Django · Django REST Framework | Database-backed menus, constrained reservations, token authentication, and staff permissions |
+| [Little Lemon — Sales Report](https://github.com/yaqyn/little-lemon-sales-report) | Jupyter notebook · Python CLI | MySQL · JSON reports | Python · SQL · MySQL Connector | Pooled connections, stored procedures, reproducible sales analysis, and source-linked reporting |
+| [Emotion Detector — IBM Flask Project](https://github.com/yaqyn/oaqjp-final-project-emb-ai) | Flask website · HTTP endpoint | Stateless | Python · Flask · Watson NLP | Structured emotion scores, dominant-emotion selection, service-error handling, and deterministic tests |
 | [Verdant Trials — Forest Maze Adventure](https://github.com/yaqyn/verdant-trials) | Desktop game | Session-only | Python · PySide6 · OpenGL | Lantern-lit exploration, fog memory, five chapters, and visual DFS/BFS |
 | [Leafmark — Personal Notebook](https://github.com/yaqyn/leafmark-notebook) | Web app | SQLite / libSQL | Go · SQLite · JavaScript | Private plain-text notes, revocable sessions, and exportable drafts |
 | [Waymark — Link Shortener](https://github.com/yaqyn/waymark-link-shortener) | Web app · HTTP API | bbolt | Go · bbolt · OpenTelemetry | Editable short links, persistent click totals, structured logs, and optional tracing |
